@@ -1,4 +1,4 @@
 socket.disconnect()
 if (location.pathname === '/stats/' || location.pathname === '/stats') {
-  document.getElementById('#userName').style = 'text-shadow: darkred 0px 0px 25px;'
+  document.getElementById('#userElement').style.filter = 'drop-shadow(0px 0px 100px red)'
 }
