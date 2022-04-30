@@ -28,7 +28,7 @@
 
   <p align="center">
     A nice script that makes you offline.<br>
-    This hints that there might be a way to tell if you online.<br>
+    This hints that there might be a way to tell if you're online.<br>
     Only time will tell...
   </p>
 </div>
