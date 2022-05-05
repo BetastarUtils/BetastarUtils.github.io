@@ -1,17 +1,14 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://blacket.org">
+  <a href="https://xotic.org">
     <img src="/images/rainbowLogo.gif" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blax Hacks</h3>
 
   <p align="center">
     Hacks for the NEW BLAX!<br>
-    No, I'm not a tester and no, I don't have the URL.<br>
-    Yes, Blax.<br>
-    Blacket is becoming a trading game.<br>
-    So far, all I know is that tokens = atoms.<br>
+    Blax was just released and is the Blacket replacement.<br>
     If you're wondering why, Blacket nearly got SUED.
   </p>
 </div>
@@ -28,8 +25,7 @@
 
   <p align="center">
     A nice script that makes you offline.<br>
-    This hints that there might be a way to tell if you're online.<br>
-    Only time will tell...
+    THIS MAY PREVENT TRADING ON YOUR ACCOUNT.
   </p>
 </div>
 <br>
