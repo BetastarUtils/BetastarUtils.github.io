@@ -9,25 +9,25 @@ function buyBox() {
     $.post('/api/open/', postData, function(data) {
         elementRarity = window.elementList[data].rarity
         if (elementRarity === "Uncommon") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px lime;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px lime;';
         } else if (elementRarity === "Trash") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px blue;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px blue;';
         } else if (elementRarity === "Common") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px red;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px red;';
         } else if (elementRarity === "Custom") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px gold;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px gold;';
         } else if (elementRarity === "Rare") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px skyblue;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px skyblue;';
         } else if (elementRarity === "Epic") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px lemonchiffon;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px lemonchiffon;';
         } else if (elementRarity === "Fabled") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px plum;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px plum;';
         } else if (elementRarity === "Legendary") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px violet;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px violet;';
         } else if (elementRarity === "Mythical") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px violet;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px violet;';
         } else if (elementRarity === "Divine") {
-            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px plum;', `${elementUnlocked}`);
+            console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px plum;';
           
         } else if (elementRarity === undefined) {}
         if (data === "You're being rate limited.") {
