@@ -1,4 +1,3 @@
-// This script might not have an end...at least, not a coded one...
 alert('Started adding atoms!')
 
 function updateAtoms() {
