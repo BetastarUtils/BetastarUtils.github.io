@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/scripts/spamCrates.js">
-    <img src="/images/root.png" alt="Logo" width="100" height="100">
+    <img src="https://thevillaincoders.github.io/blaxHacks/images/root.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">spamCrates.js</h3>
 
