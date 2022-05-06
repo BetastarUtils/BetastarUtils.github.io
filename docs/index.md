@@ -2,13 +2,13 @@
 <br />
 <div align="center">
   <a href="https://xotic.org">
-    <img src="https://thevillaincoders.github.io/blaxHacks/images/rainbowLogo.gif" alt="Logo" width="80" height="80">
+    <img src="https://thevillaincoders.github.io/blaxHacks/images/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blax Hacks</h3>
 
   <p align="center">
     Hacks for the NEW BLAX!<br>
-    Blax was just released and is the Blacket replacement.<br>
+    (Blax was just released and is the Blacket replacement.)<br>
     If you're wondering why, Blacket nearly got SUED.
   </p>
 </div>
@@ -38,8 +38,7 @@
   <h3 align="center">autoDeclineTrade.js</h3>
 
   <p align="center">
-    Appear Offline at any time.<br>
-    WARNING: This disables trading.
+    Automatically declines any incoming trade requests.
   </p>
 </div>
 <br>
@@ -53,7 +52,7 @@
 
   <p align="center">
     Gets atoms by simply spamming the atoms crate.<br>
-    Does this script have an end? You might be the one to find out...
+    This script has no coded end, simply reload the page.
   </p>
 </div>
 <br>
