@@ -18,6 +18,6 @@ var check = setInterval(() => {
         i++;
     } else {
         clearInterval(check);
-        alert("Done buying boxes! Check the console or your Elements to see what you got.");
+        alert("Done buying boxes! Check the console or the elements page to see what you got.");
     }
 }, 1001);
