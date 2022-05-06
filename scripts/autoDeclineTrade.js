@@ -1,12 +1,11 @@
 socket.on('request', () => {
 	socket.emit('decline')
+	$('.tradeRequest').remove();
 })
 class Audio {
 	constructor(e) {
 		if (e === '/audio/tradeRequest.mp3') {
-			this.play = () => {
-				return 0;
-			}
+			this.play = () => {}
 			return;
 		};
 		this.r = document.createElement('audio')
