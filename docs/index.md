@@ -9,9 +9,7 @@
   <p align="center">
     Hacks for the NEW BLAX!<br>
     Blax was just released and is the Blacket replacement.<br>
-    If you're wondering why, Blacket nearly got SUED.<br>
-    <br>
-    It's possible that a Github Pages site will show up soon...
+    If you're wondering why, Blacket nearly got SUED.
   </p>
 </div>
 <br>
