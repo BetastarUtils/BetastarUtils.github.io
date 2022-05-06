@@ -1,4 +1,4 @@
-let name = prompt("Which crate would you like to open?\n\Options:\nall\nadd");
+let name = prompt("Which crate would you like to open?\n\Options:\nall\nadd\nbia");
 let amt;
 let i = 1;
 amt = Number(prompt("How many crates would you like to open?"));
