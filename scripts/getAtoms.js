@@ -1,4 +1,4 @@
-alert('Started adding atoms!')
+alert('Started adding atoms! To stop, refresh the page.')
 
 function updateAtoms() {
     $.get('/api/user', function(data) {
