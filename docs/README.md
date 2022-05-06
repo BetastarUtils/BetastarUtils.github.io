@@ -49,7 +49,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/scripts/getAtoms.js">
-    <img src="/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
+    <img src="https://thevillaincoders.github.io/blaxHacks/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">getAtoms.js</h3>
 
@@ -63,7 +63,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/scripts/sellDupes.js">
-    <img src="/images/sellElement.png" alt="Logo" width="100" height="45">
+    <img src="https://thevillaincoders.github.io/blaxHacks/images/sellElement.png" alt="Logo" width="100" height="45">
   </a>
   <h3 align="center">sellDupes.js</h3>
 
