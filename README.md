@@ -9,7 +9,9 @@
   <p align="center">
     Hacks for the NEW BLAX!<br>
     Blax was just released and is the Blacket replacement.<br>
-    If you're wondering why, Blacket nearly got SUED.
+    If you're wondering why, Blacket nearly got SUED.<br>
+    <br>
+    It's possible that a Github Pages site will show up soon...
   </p>
 </div>
 <br>
@@ -18,14 +20,31 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/appearOffline.js">
-    <img src="/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
+  <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/scripts/spamCrates.js">
+    <img src="/images/root.png" alt="Logo" width="100" height="100">
   </a>
-  <h3 align="center">Appear Offline</h3>
+  <h3 align="center">spamCrates.js</h3>
 
   <p align="center">
-    A nice script that makes you offline.<br>
-    THIS MAY PREVENT TRADING ON YOUR ACCOUNT.
+    Spam ANY CRATE!<br>
+    Very simple:<br>
+    1. Type in a crate name from a list.<br>
+    2. Type in the quantity.<br>
+    3. Enjoy your elements!
+  </p>
+</div>
+<br>
+<div id="top"></div>
+<br />
+<div align="center">
+  <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/scripts/getAtoms.js">
+    <img src="/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
+  </a>
+  <h3 align="center">getAtoms.js</h3>
+
+  <p align="center">
+    Gets atoms by simply spamming the atoms crate.<br>
+    Does this script have an end? You might be the one to find out...
   </p>
 </div>
 <br>
