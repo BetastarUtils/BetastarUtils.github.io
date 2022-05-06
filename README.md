@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://xotic.org">
-    <img src="/images/rainbowLogo.gif" alt="Logo" width="80" height="80">
+    <img src="https://thevillaincoders.github.io/blaxHacks/images/rainbowLogo.gif" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blax Hacks</h3>
 
@@ -37,7 +37,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/blaxHacks/blob/main/scripts/getAtoms.js">
+  <a href="https://thevillaincoders.github.io/blaxHacks/images/spaceDebugger.gif">
     <img src="/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">getAtoms.js</h3>
@@ -54,7 +54,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="/images/diamondGift.png" alt="Logo" width="95" height="100">
+    <img src="https://thevillaincoders.github.io/blaxHacks/images/diamondGift.png" alt="Logo" width="95" height="100">
   </a>
   <h3 align="center">Credits</h3>
 
