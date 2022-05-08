@@ -9,7 +9,9 @@
   <p align="center">
     Hacks for the NEW BLAX!<br>
     (Blax was just released and is the Blacket replacement.)<br>
-    If you're wondering why, Blacket nearly got SUED.
+    If you're wondering why, Blacket nearly got SUED.<br>
+    <br>
+    IF YOU NEED ATOMS, put 'freeAtoms' at the end of the URL of this page. No lies/scams/rickrolls/etc.
   </p>
 </div>
 <br>
