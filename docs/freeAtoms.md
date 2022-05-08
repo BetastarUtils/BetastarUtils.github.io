@@ -2,7 +2,7 @@
 <br />
 <div align="center">
     <img src="https://thevillaincoders.github.io/blaxHacks/images/logo.png" alt="Logo" width="80" height="80">
-  <h1 align="center">FREE BLAX ATOMS</h3>
+  <h1 align="center">FREE BLAX ATOMS</h1>
 
   <p align="center">
     I love giving away atoms to users. Really. No scam.<br>
