@@ -18,7 +18,7 @@
   <h3 align="center">FREE ATOMS!</h3>
 
   <p align="center">
-   I do atom giveaways! Click <a href="https://thevillaincoders.github.io/blaxHacks/freeAtoms">here</a> to learn more.
+   I do atom giveaways! Click <a href="https://thevillaincoders.github.io/blaxHacks/atomGiveaways">here</a> to learn more.
   </p>
 </div>
 <div id="top"></div>
