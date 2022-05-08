@@ -7,13 +7,37 @@
   <h3 align="center">Blax Hacks</h3>
 
   <p align="center">
-    Hacks for the NEW BLAX!<br>
-    (Blax was just released and is the Blacket replacement.)<br>
-    If you're wondering why, Blacket nearly got SUED.<br>
+    May only work on Chrome.<br>
     <br>
-    IF YOU NEED ATOMS, put 'freeAtoms' at the end of the URL of this page. No lies/scams/rickrolls/etc.
+    <a href="https://github.com/TheVillainCoders/blaxHacks/issues">Report an Issue.</a>
   </p>
 </div>
+<div id="top"></div>
+<br />
+<div align="center">
+  <h3 align="center">FREE ATOMS!</h3>
+
+  <p align="center">
+   I do atom giveaways! Click <a href="https://thevillaincoders.github.io/blaxHacks/freeAtoms">here</a> to learn more.
+  </p>
+</div>
+<div id="top"></div>
+<br />
+<div align="center">
+  <h3 align="center">Using a HACK</h3>
+
+  <p align="center">
+    1. Find the hack you want below.<br>
+    2. Click the image.<br>
+    3. Copy the script to your clipboard.<br>
+    4. Open <a href="blax.xotic.org">Blax</a>.<br>
+    5. Right click and choose 'Inspect'.<br>
+    6. A window should pop up. Click the word 'Console' at the top of that window.<br>
+    7. Paste the script in.<br>
+    8. Follow any instructions on the Blax page.
+  </p>
+</div>
+<br>
 <br>
 <br>
 <br>
@@ -101,6 +125,7 @@
     Spoof every Element in the game!
   </p>
 </div>
+<br>
 <br>
 <br>
 <br>
