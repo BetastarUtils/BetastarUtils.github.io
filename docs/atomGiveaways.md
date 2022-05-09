@@ -33,7 +33,7 @@
     All questiosn that have been asked at least 3+ times.<br>
       <br>
       Q: HOW DO YOU GET SO MANY ATOMS?!?<br>
-      A: My <a href="https://thevillaincoders.github.io/blaxHacks/">scripts</a>!<br>
+      A: My <a href="https://thevillaincoders.github.io/Blax/scripts">scripts</a>!<br>
       <br>
       Q: Why do you host giveaways?<br>
       A: I'm bored.
