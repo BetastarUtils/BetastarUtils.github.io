@@ -1,8 +1,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-    <img src="https://thevillaincoders.github.io/blaxHacks/images/logo.png" alt="Logo" width="80" height="80">
-  <h1 align="center">BLAX ATOM GIVEAWAY</h1>
+    <img src="https://thevillaincoders.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+  <h1 align="center">Blax Atom Giveaways</h1>
 
   <p align="center">
     No scam. REAL atom giveaways.<br>
