@@ -21,7 +21,7 @@
     1. Find the script you want below.<br>
     2. Click the image.<br>
     3. Copy the script to your clipboard.<br>
-    4. Open <a href="blax.xotic.org">Blax</a>.<br>
+    4. Open <a href="https://blax.xotic.org">Blax</a>.<br>
     5. Right click and choose 'Inspect'.<br>
     6. A window should pop up. Click the word 'Console' at the top of that window.<br>
     7. Paste the script in.<br>
