@@ -1,4 +1,6 @@
-                    GNU GENERAL PUBLIC LICENSE
+ _Site copyright 2022 VillainsRule (TheVillainCoder on Github)<br>
+ Scripts copyright 2022 zastix (notzastix on Github)_
+ # GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
