@@ -16,7 +16,10 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <h3 align="center">FREE ATOMS!</h3>
+  <a href="https://thevillaincoders.github.io/Blax/atomGiveaways">
+    <img src="https://thevillaincoders.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">ATOM GIVEAWAYS!!!</h3>
 
   <p align="center">
    I do atom giveaways! Click <a href="https://thevillaincoders.github.io/Blax/atomGiveaways">here</a> to learn more.
@@ -45,7 +48,7 @@
   <h3 align="center">Credits</h3>
 
   <p align="center">
-    From the Github user TheVillainCoder.br>
+    From the Github user TheVillainCoder.<br>
     (Click the image above!)
   </p>
 </div>
