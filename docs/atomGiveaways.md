@@ -1,7 +1,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-    <img src="https://thevillaincoders.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://VillainsRule2000.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
   <h1 align="center">Blax Atom Giveaways</h1>
 
   <p align="center">
@@ -33,7 +33,7 @@
     All questiosn that have been asked at least 3+ times.<br>
       <br>
       Q: HOW DO YOU GET SO MANY ATOMS?!?<br>
-      A: My <a href="https://thevillaincoders.github.io/Blax/scripts">scripts</a>!<br>
+      A: My <a href="https://VillainsRule2000.github.io/Blax/scripts">scripts</a>!<br>
       <br>
       Q: Why do you host giveaways?<br>
       A: I'm bored.
