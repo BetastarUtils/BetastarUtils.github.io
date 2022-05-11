@@ -2,14 +2,14 @@
 <br />
 <div align="center">
   <a href="https://xotic.org">
-    <img src="https://thevillaincoders.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://VillainsRule2000.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blax Scripts</h3>
 
   <p align="center">
     May only work on Chrome.<br>
     <br>
-    <a href="https://github.com/TheVillainCoders/Blax/issues">Report an Issue.</a>
+    <a href="https://github.com/VillainsRule2000/Blax/issues">Report an Issue.</a>
   </p>
 </div>
 <div id="top"></div>
@@ -35,8 +35,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/Blax/blob/main/scripts/appearOffline.js">
-    <img src="https://thevillaincoders.github.io/Blax/images/spaceTerminal.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/appearOffline.js">
+    <img src="https://VillainsRule2000.github.io/Blax/images/spaceTerminal.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">appearOffline.js</h3>
 
@@ -49,8 +49,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/Blax/blob/main/scripts/autoDeclineTrade.js">
-    <img src="https://thevillaincoders.github.io/Blax/images/moaningBot.png" alt="Logo" width="100" height="110">
+  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/autoDeclineTrade.js">
+    <img src="https://VillainsRule2000.github.io/Blax/images/moaningBot.png" alt="Logo" width="100" height="110">
   </a>
   <h3 align="center">autoDeclineTrade.js</h3>
 
@@ -62,8 +62,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/Blax/blob/main/scripts/getAtoms.js">
-    <img src="https://thevillaincoders.github.io/Blax/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/getAtoms.js">
+    <img src="https://VillainsRule2000.github.io/Blax/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">getAtoms.js</h3>
 
@@ -76,8 +76,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/Blax/blob/main/scripts/sellDupes.js">
-    <img src="https://thevillaincoders.github.io/Blax/images/sellElement.png" alt="Logo" width="100" height="45">
+  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/sellDupes.js">
+    <img src="https://VillainsRule2000.github.io/Blax/images/sellElement.png" alt="Logo" width="100" height="45">
   </a>
   <h3 align="center">sellDupes.js</h3>
 
@@ -90,8 +90,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/Blax/blob/main/scripts/spamCrates.js">
-    <img src="https://thevillaincoders.github.io/Blax/images/root.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/spamCrates.js">
+    <img src="https://VillainsRule2000.github.io/Blax/images/root.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">spamCrates.js</h3>
 
@@ -107,8 +107,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/TheVillainCoders/Blax/blob/main/scripts/spoofElements.js">
-    <img src="https://thevillaincoders.github.io/Blax/images/allBox.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/spoofElements.js">
+    <img src="https://VillainsRule2000.github.io/Blax/images/allBox.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">spoofElements.js</h3>
 
@@ -124,7 +124,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="https://thevillaincoders.github.io/Blax/images/diamondGift.png" alt="Logo" width="95" height="100">
+    <img src="https://VillainsRule2000.github.io/Blax/images/diamondGift.png" alt="Logo" width="95" height="100">
   </a>
   <h3 align="center">Script Credits</h3>
 
