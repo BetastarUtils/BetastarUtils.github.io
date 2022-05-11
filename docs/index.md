@@ -35,7 +35,8 @@
   <h3 align="center">Scripts</h3>
 
   <p align="center">
-    A TON of helpful Blax scripts made by Zastix.
+    A TON of helpful Blax scripts made by Zastix.<br>
+    FOR THE LAST TIME, I SAID MADE BY ZASTIX, OF WHOM I DO NOT COLLABORATE WITH.
   </p>
 </div>
 <br>
