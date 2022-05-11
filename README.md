@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://xotic.org">
-    <img src="https://thevillaincoders.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://VillainsRule2000.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blax Utilities</h3>
 
