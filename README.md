@@ -9,6 +9,6 @@
   <p align="center">
     Utilites for BLAX!<br>
     This is maintained and checked daily.<br>
-    <a href="https://thevillaincoders.github.io/Blax/">Main site!</a>
+    <a href="https://VillainsRule2000.github.io/Blax/">Main site!</a>
   </p>
 </div>
