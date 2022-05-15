@@ -1,7 +1,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://xotic.org">
+  <a href="https://betastar.org">
     <img src="https://VillainsRule2000.github.io/Betastar/images/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Blax</h3>
