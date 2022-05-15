@@ -1,3 +1,5 @@
+alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://villainsrule2000.github.io/Betastar/')
+
 let i = 1;
 let boxes = []
 Object.keys(cratesList).forEach(e => {
@@ -24,6 +26,6 @@ var check = setInterval(() => {
         i++;
     } else {
         clearInterval(check);
-        alert("Done buying boxes! Check the console or the Elements page.");
+        alert("Done buying crates! Check the console or the Elements page.");
     }
 }, 1001);
