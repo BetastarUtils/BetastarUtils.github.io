@@ -1,14 +1,14 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://xotic.org">
-    <img src="https://VillainsRule2000.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://betastar.org">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Blax Utilities</h3>
+  <h3 align="center">Betastar Utilities</h3>
 
   <p align="center">
-    Utilites for BLAX!<br>
+    Utilites for Betastar!<br>
     This is maintained and checked daily.<br>
-    <a href="https://VillainsRule2000.github.io/Blax/">Main site!</a>
+    <a href="https://VillainsRule2000.github.io/Betastar/">Main site!</a>
   </p>
 </div>
