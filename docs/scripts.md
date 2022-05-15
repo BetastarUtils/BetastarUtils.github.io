@@ -1,15 +1,15 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://xotic.org">
-    <img src="https://VillainsRule2000.github.io/Blax/images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://betastar.org">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Blax Scripts</h3>
+  <h3 align="center">Betastar Scripts</h3>
 
   <p align="center">
     May only work on Chrome.<br>
     <br>
-    <a href="https://github.com/VillainsRule2000/Blax/issues">Report an Issue.</a>
+    <a href="https://github.com/VillainsRule2000/Betastar/issues">Report an Issue.</a>
   </p>
 </div>
 <div id="top"></div>
@@ -21,11 +21,11 @@
     1. Find the script you want below.<br>
     2. Click the image.<br>
     3. Copy the script to your clipboard.<br>
-    4. Open <a href="https://blax.xotic.org">Blax</a>.<br>
+    4. Open <a href="https://Betastar.org">Betastar</a>.<br>
     5. Right click and choose 'Inspect'.<br>
     6. A window should pop up. Click the word 'Console' at the top of that window.<br>
     7. Paste the script in.<br>
-    8. Follow any instructions on the Blax page.
+    8. Follow any instructions on the Betastar page.
   </p>
 </div>
 <br>
@@ -35,8 +35,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/appearOffline.js">
-    <img src="https://VillainsRule2000.github.io/Blax/images/spaceTerminal.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/appearOffline.js">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/spaceTerminal.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">appearOffline.js</h3>
 
@@ -49,21 +49,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/autoDeclineTrade.js">
-    <img src="https://VillainsRule2000.github.io/Blax/images/moaningBot.png" alt="Logo" width="100" height="110">
-  </a>
-  <h3 align="center">autoDeclineTrade.js</h3>
-
-  <p align="center">
-    Automatically declines any incoming trade requests.
-  </p>
-</div>
-<br>
-<div id="top"></div>
-<br />
-<div align="center">
-  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/getAtoms.js">
-    <img src="https://VillainsRule2000.github.io/Blax/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/getAtoms.js">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">getAtoms.js</h3>
 
@@ -76,22 +63,22 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/sellDupes.js">
-    <img src="https://VillainsRule2000.github.io/Blax/images/sellElement.png" alt="Logo" width="100" height="45">
+  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/sellDupes.js">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/sellElement.png" alt="Logo" width="100" height="45">
   </a>
   <h3 align="center">sellDupes.js</h3>
 
   <p align="center">
     Sell all your duplicate Elements, automatically.<br>
-    WARNING: there is no way to make an exception for certain blooks and there is no warning message.
+    WARNING: there is no way to make an exception for certain elements and there is no warning message.
   </p>
 </div>
 <br>
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/spamCrates.js">
-    <img src="https://VillainsRule2000.github.io/Blax/images/root.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/spamCrates.js">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/root.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">spamCrates.js</h3>
 
@@ -107,8 +94,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Blax/blob/main/scripts/spoofElements.js">
-    <img src="https://VillainsRule2000.github.io/Blax/images/allBox.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/spoofElements.js">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/allBox.png" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">spoofElements.js</h3>
 
@@ -124,12 +111,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="https://VillainsRule2000.github.io/Blax/images/diamondGift.png" alt="Logo" width="95" height="100">
+    <img src="https://VillainsRule2000.github.io/Betastar/images/diamondGift.png" alt="Logo" width="95" height="100">
   </a>
   <h3 align="center">Script Credits</h3>
 
   <p align="center">
-    From the Github user notzatix.<br>
-    (Click the image above!)
+    From the Github user notzatix.
   </p>
 </div>
