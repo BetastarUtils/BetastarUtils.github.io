@@ -4,7 +4,7 @@
   <a href="https://betastar.org">
     <img src="https://VillainsRule2000.github.io/Betastar/images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Blax</h3>
+  <h3 align="center">Betastar</h3>
 
   <p align="center">
     Asorted Betastar things...<br>
