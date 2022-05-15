@@ -1,4 +1,4 @@
- _Site copyright 2022 VillainsRule (TheVillainCoder on Github)<br>
+ _Site copyright 2022 VillainsRule (VillainsRule4000 or VillainsRule2000 on Github)<br>
  Scripts copyright 2022 zastix (notzastix on Github)_
  # GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
