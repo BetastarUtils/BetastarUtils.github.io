@@ -18,10 +18,10 @@
   <h3 align="center">FAQ</h3>
 
   <p align="center">
-    All questiosn that have been asked at least 3+ times.<br>
+    All questions that have been asked at least 3+ times.<br>
       <br>
       Q: HOW DO YOU GET SO MANY ATOMS?!?<br>
-      A: My <a href="https://VillainsRule2000.github.io/Betastar/scripts">scripts</a>!<br>
+      A: Zastix's <a href="https://VillainsRule2000.github.io/Betastar/scripts">scripts</a>!<br>
       <br>
       Q: Why do you host giveaways?<br>
       A: I'm bored. No joke.
