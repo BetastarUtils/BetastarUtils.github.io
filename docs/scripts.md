@@ -21,7 +21,7 @@
     1. Find the script you want below.<br>
     2. Click the image.<br>
     3. Copy the script to your clipboard.<br>
-    4. Open <a href="https://Betastar.org">Betastar</a>.<br>
+    4. Open <a href="https://betastar.org">Betastar</a>.<br>
     5. Right click and choose 'Inspect'.<br>
     6. A window should pop up. Click the word 'Console' at the top of that window.<br>
     7. Paste the script in.<br>
@@ -43,20 +43,6 @@
   <p align="center">
     Appear Offline at any time.<br>
     WARNING: This disables trading.
-  </p>
-</div>
-<br>
-<div id="top"></div>
-<br />
-<div align="center">
-  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/getAtoms.js">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/spaceDebugger.gif" alt="Logo" width="100" height="100">
-  </a>
-  <h3 align="center">getAtoms.js</h3>
-
-  <p align="center">
-    Gets atoms by simply spamming the atoms crate.<br>
-    This script has no coded end, simply reload the page.
   </p>
 </div>
 <br>
