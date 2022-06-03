@@ -31,10 +31,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/appearOffline.js">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/spaceTerminal.png" alt="Logo" width="200" height="200">
-  </a>
-  <h3 align="center">appearOffline.js</h3>
+  <img src="https://VillainsRule2000.github.io/Betastar/images/spaceTerminal.png" alt="Logo" width="200" height="200">
+  <h3 align="center">Appear Offline</h3>
 
   <p align="center">
     Appear Offline at any time.<br>
@@ -54,10 +52,24 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/sellDupes.js">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/sellElement.png" alt="Logo" width="200" height="90">
-  </a>
-  <h3 align="center">sellDupes.js</h3>
+  <img src="https://VillainsRule2000.github.io/Betastar/images/sellElement.png" alt="Logo" width="200" height="90">
+  <h3 align="center">Chat Spammer</h3>
+
+  <p align="center">
+    Spams the chat with "free atoms", then a decimal.<br>
+    You may be muted or banned, I wouldn't try it,
+  </p>
+</div>
+
+```js
+setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
+```
+<br>
+<div id="top"></div>
+<br />
+<div align="center">
+  <img src="https://VillainsRule2000.github.io/Betastar/images/sellElement.png" alt="Logo" width="200" height="90">
+  <h3 align="center">Sell Duplicate Elements</h3>
 
   <p align="center">
     Sell all your duplicate Elements, automatically.<br>
@@ -86,13 +98,11 @@ async function sell(element) {
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/spamCrates.js">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/spamCrates.png" alt="Logo" width="110" height="300">
-  </a>
-  <h3 align="center">spamCrates.js</h3>
+  <img src="https://VillainsRule2000.github.io/Betastar/images/spamCrates.png" alt="Logo" width="110" height="300">
+  <h3 align="center">Spam Open Crates</h3>
 
   <p align="center">
-    Spam ANY CRATE!<br>
+    Spam open ANY CRATE!<br>
     Very simple:<br>
     1. Type in a crate name from a list.<br>
     2. Type in the quantity.<br>
@@ -153,10 +163,8 @@ var check = setInterval(() => {
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/VillainsRule2000/Betastar/blob/main/scripts/spoofElements.js">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/allElements.png" alt="Logo" width="500" height="250">
-  </a>
-  <h3 align="center">spoofElements.js</h3>
+  <img src="https://VillainsRule2000.github.io/Betastar/images/allElements.png" alt="Logo" width="500" height="250">
+  <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
     Spoof every Element in the game!
