@@ -85,7 +85,7 @@ $.get('/api/user/elements', function(data) {
     Object.keys(elementList).forEach(element => sell(element))
 })
 async function sell(element) {
-    var amt = userElements[element] - 0
+    var amt = userElements[element] - 1
     if (0 >= amt) return;
     var postData = `element=${element}&quantity=${amt}`;
     $.post(`/api/sell/`, postData, function() {
