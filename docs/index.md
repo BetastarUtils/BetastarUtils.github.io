@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://betastargame.github.io/scripts">
-    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="100" height="100">
+    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Scripts</h3>
 
@@ -35,7 +35,7 @@
 <br />
 <div align="center">
   <a href="https://betastargame.github.io/alts">
-    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="100" height="100">
+    <img src="https://betastargame.github.io/images/register.png" alt="Decor Image" width="200" height="82">
   </a>
   <h3 align="center">Alt Accounts</h3>
 
