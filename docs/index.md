@@ -10,7 +10,7 @@
 
   <p align="center">
     <b>Announcements:</b><br>
-    - Nothing, the main creator of this site, got the leaderboard! :(<br>
+    - Nothing, the main creator of this site, got the leaderboard! Let's go!<br>
     <br>
     <b><a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue.</a></b>
   </p>
