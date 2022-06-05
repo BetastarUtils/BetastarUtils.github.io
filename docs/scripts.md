@@ -2,12 +2,12 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/logo.png" alt="Logo" width="300" height="300">
+    <img src="https://betastargame.github.io/images/logo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Scripts</h1>
 
   <p align="center">
-    <a href="https://github.com/VillainsRule2000/Betastar/issues">Report an Issue</a>
+    <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
   </p>
 </div>
 <div id="top"></div>
@@ -31,7 +31,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://VillainsRule2000.github.io/Betastar/images/spaceTerminal.png" alt="Logo" width="200" height="200">
+  <img src="https://betastargame.github.io/images/spaceTerminal.png" alt="Logo" width="200" height="200">
   <h3 align="center">Appear Offline</h3>
 
   <p align="center">
@@ -41,7 +41,7 @@
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://villainsrule2000.github.io/Betastar/')
+alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 alert('WARNING: you will not be able to trade with this script enabled')
 socket.disconnect()
 if (location.pathname === '/stats/' || location.pathname === '/stats') {
@@ -52,23 +52,23 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://VillainsRule2000.github.io/Betastar/images/sellElement.png" alt="Logo" width="200" height="90">
   <h3 align="center">Chat Spammer</h3>
 
   <p align="center">
     Spams the chat with "free atoms", then a decimal.<br>
-    You may be muted or banned, I wouldn't try it,
+    You may be muted or banned, I wouldn't try it.
   </p>
 </div>
 
 ```js
+alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
 ```
 <br>
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://VillainsRule2000.github.io/Betastar/images/sellElement.png" alt="Logo" width="200" height="90">
+  <img src="https://betastargame.github.io/images/sellElement.png" alt="Logo" width="200" height="90">
   <h3 align="center">Sell Duplicate Elements</h3>
 
   <p align="center">
@@ -78,7 +78,7 @@ setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://villainsrule2000.github.io/Betastar/')
+alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 $.get('/api/user/elements', function(data) {
     userElements = JSON.parse(data)
@@ -98,7 +98,7 @@ async function sell(element) {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://VillainsRule2000.github.io/Betastar/images/spamCrates.png" alt="Logo" width="110" height="300">
+  <img src="https://betastargame.github.io/images/spamCrates.png" alt="Logo" width="110" height="300">
   <h3 align="center">Spam Open Crates</h3>
 
   <p align="center">
@@ -111,7 +111,7 @@ async function sell(element) {
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://villainsrule2000.github.io/Betastar/')
+alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 var i = 0;
 var boxes = []
@@ -163,7 +163,7 @@ var check = setInterval(() => {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://VillainsRule2000.github.io/Betastar/images/allElements.png" alt="Logo" width="500" height="250">
+  <img src="https://betastargame.github.io/images/allElements.png" alt="Logo" width="500" height="250">
   <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
@@ -172,7 +172,7 @@ var check = setInterval(() => {
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://villainsrule2000.github.io/Betastar/')
+alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 Array.from(document.getElementById('#elementList').children).forEach(a => a.remove())
 Object.entries(elementList).forEach((entry) => {
@@ -193,7 +193,7 @@ for (i=0;i<Object.keys(elementList).length;i++) {
 <br />
 <div align="center">
   <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="https://betastargame.github.io/images/diamondGift.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Script Credits</h3>
 
