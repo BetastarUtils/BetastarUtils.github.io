@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://betastargame.github.io/images/logo.png" alt="Betastar Logo" width="200" height="200">
+    <img src="https://betastargame.github.io/images/logo.png" alt="Betastar Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Utilities</h1>
   
