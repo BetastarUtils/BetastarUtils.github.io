@@ -2,12 +2,12 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/logo.png" alt="Logo" width="300" height="300">
+    <img src="https://betastargame.github.io/images/logo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Alt Accounts</h1>
 
   <p align="center">
-    <a href="https://github.com/VillainsRule2000/Betastar/issues">Report an Issue</a>
+    <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
   </p>
 </div>
 <div id="top"></div>
@@ -36,11 +36,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="https://VillainsRule2000.github.io/Betastar/images/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="https://betastargame.github.io/images/diamondGift.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Credits</h3>
 
   <p align="center">
-    Method credit to <b>@VillainsRule</b> (Betastar) and <b>@VillainsRule4000</b> (Github).
+    Method credit to <b>@Nothing</b> (Betastar) and <b>@VillainsRule4000</b> (Github).
   </p>
 </div>
