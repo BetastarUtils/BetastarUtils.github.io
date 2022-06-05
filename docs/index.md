@@ -9,6 +9,8 @@
   <h3 align="center">The widest Betastar utility collection!</h3>
 
   <p align="center">
+    Hint: click the images...<br>
+    <br>
     <b>Announcements:</b><br>
     - Nothing, the main creator of this site, got the leaderboard! Let's go!<br>
     <br>
@@ -29,6 +31,19 @@
   </p>
 </div>
 <br>
+<div id="top"></div>
+<br />
+<div align="center">
+  <a href="https://betastargame.github.io/alts">
+    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="100" height="100">
+  </a>
+  <h3 align="center">Alt Accounts</h3>
+
+  <p align="center">
+    A tutorial created by <b>@VillainsRule4000</b> on how to create alternate accounts.<br>
+    If you log out and try to register again without the tutorial, some people can create 2 alts besides their main without these imstructions.
+  </p>
+</div>
 <div id="top"></div>
 <br />
 <div align="center">
