@@ -7,6 +7,8 @@
   <h1 align="center">Betastar Scripts</h1>
 
   <p align="center">
+    <b>Almost all of these are compatible with Tampermonkey!</b><br>
+    <br>
     <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
   </p>
 </div>
@@ -36,7 +38,9 @@
 
   <p align="center">
     Appear Offline at any time.<br>
-    WARNING: This disables trading.
+    WARNING: This disables trading.<br>
+    <br>
+    <b>Incompatible with Tampermonkey</b>
   </p>
 </div>
 
@@ -52,6 +56,89 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
 <div id="top"></div>
 <br />
 <div align="center">
+  <h3 align="center">Chat Downloader</h3>
+
+  <p align="center">
+    Adds a handy button that downloads the chat upon click...
+  </p>
+</div>
+
+```js
+// ==UserScript==
+// @name         Betastar Chat Downloader
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Adds a handy button that downloads the chat upon click...MORE SCRIPTS --> https://betastargame.github.io/scripts
+// @author       l2vy7/acai
+// @match        https://betastar.org/chat/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    var style = document.createElement('style');
+    style.textContent = `
+
+    .chatExport {
+        font-family: jua;
+        color: white;
+        border-radius: 0.25rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        box-shadow: 0px 10px 25px 15px rgba(100,100,100,0.2);
+        padding: 5px 10px;
+    }
+
+    `;
+    document.body.appendChild(style);
+
+    var bruh = document.createElement('h3');
+    bruh.textContent = 'Download Chat Logs';
+    bruh.classList.add('chatExport');
+    document.body.appendChild(bruh);
+
+    bruh.addEventListener('click', function (e) {
+        var text = ``;
+        for (var elem of document.getElementsByClassName('chatBox')[0].children) {
+            var profile = elem.children[0].src.endsWith('gif') ? 'Owner' : capitalizeFirstLetter(elem.children[0].src.replace('https://betastar.org', '').replace('/image/elements/', '').replace('.png', ''));
+            text += `${profile} - ${elem.children[1].textContent.replace(' > ', '')}: ${elem.children[2].textContent}\n`.replace('Https://betastar.org', '');
+        }
+        downloadFile(`data:application/txt,${encodeURIComponent(text)}`);
+    });
+
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    function downloadFile(url) {
+        const a = document.createElement('a');
+
+        a.style.display = 'none';
+        a.href = url;
+
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0');
+        var yyyy = today.getFullYear();
+
+        a.download = `logs-${mm}-${dd}-${yyyy}-${today.getSeconds()}.txt`;
+
+        document.body.appendChild(a);
+
+        a.click();
+
+        window.URL.revokeObjectURL(url);
+    }
+})();
+```
+<br>
+<div id="top"></div>
+<br />
+<div align="center">
   <h3 align="center">Chat Spammer</h3>
 
   <p align="center">
@@ -61,7 +148,19 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
 </div>
 
 ```js
+// ==UserScript==
+// @name         Betastar Chat Spammer
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Spams the chat with "free atoms", then a decimal. You may be muted or banned, I wouldn't try it. MORE SCRIPTS --> https://betastargame.github.io/scripts
+// @author       zastix
+// @match        https://betastar.org/chat/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
+// @grant        none
+// ==/UserScript==
+
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('WARNING: this will cause SO MUCH LAG, some devices cannot handle it.\nDO NOT USE THIS on Chromebooks, Phones, iPads, or odl devices. It might break them.')
 setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
 ```
 <br>
@@ -72,13 +171,24 @@ setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
   <h3 align="center">Sell Duplicate Elements</h3>
 
   <p align="center">
-    Sell all your duplicate Elements, automatically.<br>
-    WARNING: there is no way to make an exception for certain elements and there is no warning message.
+    Sell all your duplicate Elements, automatically.
   </p>
 </div>
 
 ```js
+// ==UserScript==
+// @name         Betastar Duplicate Element Seller
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Sell all your duplicate Elements, automatically. MORE SCRIPTS --> https://betastargame.github.io/scripts
+// @author       zastix
+// @match        https://betastar.org/elements/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
+// @grant        none
+// ==/UserScript==
+
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Are you sure? There is no way to exempt elements in ANY WAY.')
 
 $.get('/api/user/elements', function(data) {
     userElements = JSON.parse(data)
@@ -102,15 +212,22 @@ async function sell(element) {
   <h3 align="center">Spam Open Crates</h3>
 
   <p align="center">
-    Spam open ANY CRATE!<br>
-    Very simple:<br>
-    1. Type in a crate name from a list.<br>
-    2. Type in the quantity.<br>
-    3. Enjoy your elements!
+    Quickly get the elements from any crate. Works QUITE quickly.
   </p>
 </div>
 
 ```js
+// ==UserScript==
+// @name         Betastar Crate Spammer
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Quickly get the elements from any crate. Works QUITE quickly. MORE SCRIPTS --> https://betastargame.github.io/scripts
+// @author       zastix
+// @match        https://betastar.org/crates/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
+// @grant        none
+// ==/UserScript==
+
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 var i = 0;
@@ -167,11 +284,22 @@ var check = setInterval(() => {
   <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
-    Spoof every Element in the game!
+    Make it look as if you have EVERY ELEMENT, even unobtainable ones!
   </p>
 </div>
 
 ```js
+// ==UserScript==
+// @name         Betastar Element Spoofer
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Make it look as if you have EVERY ELEMENT, even unobtainable ones! MORE SCRIPTS --> https://betastargame.github.io/scripts
+// @author       zastix
+// @match        https://betastar.org/elements/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
+// @grant        none
+// ==/UserScript==
+
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 Array.from(document.getElementById('#elementList').children).forEach(a => a.remove())
