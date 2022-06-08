@@ -209,7 +209,7 @@
   <p align="center">
     <b>Cost: 15 atoms</b><br>
     <br>
-    <b>Usually generates a profit<b><br>
+    <b>Usually generates a profit</b><br>
     <br>
     Boron > 15%<br>
     Silicon > 15%<br>
