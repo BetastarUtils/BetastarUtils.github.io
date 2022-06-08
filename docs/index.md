@@ -21,6 +21,19 @@
 <div id="top"></div>
 <br />
 <div align="center">
+  <a href="https://betastargame.github.io/startguide">
+    <img src="https://icon-library.com/images/play-icon-white-png/play-icon-white-png-4.jpg" alt="Decor Image" width="200" height="200">
+  </a>
+  <h3 align="center">Starter Guide</h3>
+
+  <p align="center">
+    A tutorial created by <b>@VillainsRule4000</b> on how to start up and make a profit on Betastar.<br>
+    This isn't a step-by-step, but many beginners have found it quite helpful.
+  </p>
+</div>
+<div id="top"></div>
+<br />
+<div align="center">
   <a href="https://betastargame.github.io/scripts">
     <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
   </a>
