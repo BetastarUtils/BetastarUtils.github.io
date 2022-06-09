@@ -12,10 +12,40 @@
     Hint: click the images...<br>
     <br>
     <b>Announcements:</b><br>
-    - Nothing, the main creator of this site, got the leaderboard! Let's go!<br>
+    None<br>
     <br>
     <b><a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue.</a></b>
   </p>
+</div>
+<br>
+<br>
+<br>
+<div id="top"></div>
+<br />
+<div align="center">
+  <h2 align="center">Resources</h2>
+</div>
+<br>
+<div id="top"></div>
+<br />
+<div align="center">
+  <a href="https://betastargame.github.io/scripts">
+    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
+  </a>
+  <h3 align="center">Scripts</h3>
+
+  <p align="center">
+    Also known as hacks.<br>
+    <br>
+    Created by <b>Zastix (@notzastix)</b> and <b> acai (@l2vy7)</b>.
+  </p>
+</div>
+<br>
+<br>
+<div id="top"></div>
+<br />
+<div align="center">
+  <h2 align="center">Information Guides</h3>
 </div>
 <br>
 <div id="top"></div>
@@ -31,16 +61,18 @@
     This isn't a step-by-step, but many beginners have found it quite helpful.
   </p>
 </div>
+<br>
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/scripts">
-    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
+  <a href="https://betastargame.github.io/crates/">
+    <img src="https://betastargame.github.io/crates/noble.png" alt="Decor Image" width="200" height="200">
   </a>
-  <h3 align="center">Scripts</h3>
+  <h3 align="center">Crates</h3>
 
   <p align="center">
-    A TON of helpful hacks made by <b>@notzastix</b>.
+    A list created by <b>@VillainsRule4000</b> with the crates, elements inside, and drop rates.<br>
+    Element list is in progress!
   </p>
 </div>
 <br>
@@ -57,6 +89,9 @@
     If you log out and try to register again without the tutorial, some people can create 2 alts besides their main without these imstructions.
   </p>
 </div>
+<br>
+<br>
+<br>
 <div id="top"></div>
 <br />
 <div align="center">
@@ -65,6 +100,6 @@
 
   <p align="center">
     Repository + site created by <b>VillainsRule (@VillainsRule4000)</b>.<br>
-    Hacks created by <b>Zastix (@notzastix)</b>.
+    Scripts created by <b>Zastix (@notzastix)</b> and <b> acai (@l2vy7)</b>.
   </p>
 </div>
