@@ -7,8 +7,6 @@
   <h1 align="center">Betastar Scripts</h1>
 
   <p align="center">
-    <b>Almost all of these are compatible with Tampermonkey!</b><br>
-    <br>
     <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
   </p>
 </div>
@@ -38,9 +36,7 @@
 
   <p align="center">
     Appear Offline at any time.<br>
-    WARNING: This disables trading.<br>
-    <br>
-    <b>Incompatible with Tampermonkey</b>
+    WARNING: This disables trading.
   </p>
 </div>
 
@@ -59,7 +55,9 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
   <h3 align="center">Chat Downloader</h3>
 
   <p align="center">
-    Adds a handy button that downloads the chat upon click...
+    Adds a handy button that downloads the chat upon click...<br>
+    <br>
+    <b>Compatible with Tampermonkey!</b>
   </p>
 </div>
 
@@ -74,6 +72,8 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
 // @grant        none
 // ==/UserScript==
+
+alert('Script coded by l2xy7 or acai, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 (function() {
     'use strict';
@@ -139,29 +139,31 @@ if (location.pathname === '/stats/' || location.pathname === '/stats') {
 <div id="top"></div>
 <br />
 <div align="center">
-  <h3 align="center">Chat Spammer</h3>
+  <h3 align="center">Element Chance Calculator</h3>
 
   <p align="center">
-    Spams the chat with "free atoms", then a decimal.<br>
-    You may be muted or banned, I wouldn't try it.
+    Informs you of the chance of getting an element from a crate...
   </p>
 </div>
 
 ```js
-// ==UserScript==
-// @name         Betastar Chat Spammer
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Spams the chat with "free atoms", then a decimal. You may be muted or banned, I wouldn't try it. MORE SCRIPTS --> https://betastargame.github.io/scripts
-// @author       zastix
-// @match        https://betastar.org/chat/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
-// @grant        none
-// ==/UserScript==
+alert('Script coded by tremblero and updated by zastix, Betastar testers\nFor more scripts, visit\nhttps://betastargame.github.io/')
+try {
+    let element = prompt('What element are you trying to get?').toLowerCase()
+    let amt = prompt('How many crates are you opening?')
+    let amount = prompt('How many are you aiming for?')
+    let chance = elementList[element]['chance']
+    alert('Press OK to calculate')
 
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
-alert('WARNING: this will cause SO MUCH LAG, some devices cannot handle it.\nDO NOT USE THIS on Chromebooks, Phones, iPads, or odl devices. It might break them.')
-setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
+    let calculation = chance * amt
+    alert('You have a ' + calculation + '% chance to get atleast one ' + element + '. (Press OK to continue)')
+    console.log('You have a ' + calculation + '% chance to get atleast one ' + element + '.')
+    alert('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
+    console.log('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
+} catch (e) {
+    console.log('An erorr has occured')
+    alert('An error has occured')
+}
 ```
 <br>
 <div id="top"></div>
@@ -176,17 +178,6 @@ setInterval(()=>{ socket.emit('smes', `free atoms | ${Math.random()}`) })
 </div>
 
 ```js
-// ==UserScript==
-// @name         Betastar Duplicate Element Seller
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Sell all your duplicate Elements, automatically. MORE SCRIPTS --> https://betastargame.github.io/scripts
-// @author       zastix
-// @match        https://betastar.org/elements/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
-// @grant        none
-// ==/UserScript==
-
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 alert('Are you sure? There is no way to exempt elements in ANY WAY.')
 
@@ -217,17 +208,6 @@ async function sell(element) {
 </div>
 
 ```js
-// ==UserScript==
-// @name         Betastar Crate Spammer
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Quickly get the elements from any crate. Works QUITE quickly. MORE SCRIPTS --> https://betastargame.github.io/scripts
-// @author       zastix
-// @match        https://betastar.org/crates/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
-// @grant        none
-// ==/UserScript==
-
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 var i = 0;
@@ -284,22 +264,14 @@ var check = setInterval(() => {
   <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
-    Make it look as if you have EVERY ELEMENT, even unobtainable ones!
+    Make it look as if you have EVERY ELEMENT, even unobtainable ones!<br>
+    <br>
+    <b>The word in this script is NOT in any way to be offensive. It is a password in Betastar needed in the script.<br>
+    If you are offended, this is Xotic's fault.</b>
   </p>
 </div>
 
 ```js
-// ==UserScript==
-// @name         Betastar Element Spoofer
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Make it look as if you have EVERY ELEMENT, even unobtainable ones! MORE SCRIPTS --> https://betastargame.github.io/scripts
-// @author       zastix
-// @match        https://betastar.org/elements/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=betastar.org
-// @grant        none
-// ==/UserScript==
-
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
 
 Array.from(document.getElementById('#elementList').children).forEach(a => a.remove())
@@ -326,6 +298,6 @@ for (i=0;i<Object.keys(elementList).length;i++) {
   <h3 align="center">Script Credits</h3>
 
   <p align="center">
-    Credit to <b>@notzastix</b>.
+    Credit to <b>@notzastix</b> and <b>@l2xy7</b>.
   </p>
 </div>
