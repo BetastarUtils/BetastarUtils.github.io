@@ -44,7 +44,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/noble.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/noble.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Noble Crate</h3>
 
   <p align="center">
@@ -64,7 +64,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/actino.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/actino.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Actino Crate</h3>
 
   <p align="center">
@@ -82,7 +82,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/transit.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/transit.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Transit Crate</h3>
 
   <p align="center">
@@ -131,7 +131,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/lanthan.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/lanthan.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Lanthan Crate</h3>
 
   <p align="center">
@@ -157,7 +157,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/non.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/non.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Non Crate</h3>
 
   <p align="center">
@@ -180,7 +180,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/alkali.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/alkali.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Alkali Crate</h3>
 
   <p align="center">
@@ -203,7 +203,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/crates/metallo.png" alt="Crate image" width="200" height="200">
+  <img src="https://betastargame.github.io/info/crates/metallo.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Metallo Crate</h3>
 
   <p align="center">
