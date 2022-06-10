@@ -45,7 +45,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <h2 align="center">Information Guides</h3>
+  <h2 align="center">Information Guides</h2>
 </div>
 <br>
 <div id="top"></div>
