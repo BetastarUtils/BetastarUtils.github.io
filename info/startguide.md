@@ -16,7 +16,7 @@
   <h3 align="center">About the Game</h3>
 
   <p align="center">
-    Betastar is a <b>trading game</b> created by only one person using PHP, [Xotic](https://github.com/XOTlC).<br>
+    Betastar is a <b>trading game</b> created by only one person using PHP, <a href="https://github.com/XOTlC">Xotic</a>.<br>
     <br>
     Betastar is a game that is somewhat similiar to Blooket.<br>You could call it the non-educational Blooket.
   </p>
@@ -54,8 +54,8 @@
   <p align="center">
     To get elements, open the market. This is the page with the crate icon and seven big boxes. Click a box, and then you can buy it.<br>
     There is a certain chance you can get things from a box. You can click the rates button (appears upon crate click) to see this.<br>
-    - <a href="https://betastargame.github.io/crates/">Crates + Drop rate info</a><br>
-    - <a href="https://betastargame.github.io/alts/">Making alts for more daily atoms</a>
+    - <a href="https://betastargame.github.io/info/crates/">Crates + Drop rate info</a><br>
+    - <a href="https://betastargame.github.io/info/alts/">Making alts for more daily atoms</a>
   </p>
 </div>
 <br>
