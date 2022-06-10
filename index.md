@@ -29,7 +29,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/scripts">
+  <a href="https://betastargame.github.io/resources/scripts">
     <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Scripts</h3>
@@ -51,7 +51,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/startguide">
+  <a href="https://betastargame.github.io/info/startguide">
     <img src="https://icon-library.com/images/play-icon-white-png/play-icon-white-png-4.jpg" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Starter Guide</h3>
@@ -65,8 +65,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/crates/">
-    <img src="https://betastargame.github.io/crates/noble.png" alt="Decor Image" width="200" height="200">
+  <a href="https://betastargame.github.io/info/crates">
+    <img src="https://betastargame.github.io/info/crates/noble.png" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Crates</h3>
 
@@ -79,7 +79,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/alts">
+  <a href="https://betastargame.github.io/info/alts">
     <img src="https://betastargame.github.io/images/register.png" alt="Decor Image" width="200" height="82">
   </a>
   <h3 align="center">Alt Accounts</h3>
