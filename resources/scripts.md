@@ -188,16 +188,14 @@ alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps:/
 alert('Are you sure? There is no way to exempt elements in ANY WAY.')
 
 $.get('/api/user/elements', function(data) {
-    userElements = JSON.parse(data)
+    window.userElements = JSON.parse(data)
     Object.keys(elementList).forEach(element => sell(element))
 })
 async function sell(element) {
-    var amt = userElements[element] - 1
-    if (0 >= amt) return;
-    var postData = `element=${element}&quantity=${amt}`;
-    $.post(`/api/sell/`, postData, function() {
-        if (isNaN(amt)) return;
-        else console.log(`Sold ${amt} ${element}(s)`);
+    var amt =  window.userElements[element] - 1
+    if (0 >= amt) return
+    $.post(`/api/sell/`, `element=${element}&quantity=${amt}`, function() {
+        isNaN(amt) ? return : console.log(`Sold ${amt} ${element}(s)`)
     })
 }
 ```
@@ -260,7 +258,7 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Done buying boxes! Check the console or the Elements page.");
     }
-}, 751);
+}, 500);
 ```
 <br>
 <div id="top"></div>
@@ -270,10 +268,7 @@ var check = setInterval(() => {
   <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
-    Make it look as if you have EVERY ELEMENT, even unobtainable ones!<br>
-    <br>
-    <b>The word in this script is NOT in any way to be offensive. It is a password in Betastar needed in the script.<br>
-    If you are offended, this is Xotic's fault.</b>
+    Make it look as if you have EVERY ELEMENT, even unobtainable ones!
   </p>
 </div>
 
@@ -287,8 +282,7 @@ Object.entries(elementList).forEach((entry) => {
 })
 for (i=0;i<Object.keys(elementList).length;i++) {
     elemes = Object.keys(elementList)
-    if (elemes[i] === 'nigger') userElements[elemes[i]] = Math.floor(Math.random() * 4);
-    else userElements[elemes[i]] = Math.floor(elementList[elemes[i]]['chance'] / 2 + Math.round(Math.random() * 20));
+    userElements[elemes[i]] = Math.floor(elementList[elemes[i]]['chance'] / 2 + Math.round(Math.random() * 20));
 }
 ```
 <br>
