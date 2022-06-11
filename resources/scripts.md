@@ -232,7 +232,7 @@ if (!boxes.includes(name)) {
     name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes.join('\n'));
 }
 var amt = Number(prompt("How many crates would you like to open?\ntype \"*\" to unlock all you can with your current atoms."));
-if (isNaN(amt)) amt = 99999999999999
+if (isNaN(amt)) amt = Number.MAX_VALUE
 function buyBox() {
     $.post('/api/open/', `crate=${name}`, function(data) {
         try {
