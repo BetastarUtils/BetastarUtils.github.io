@@ -298,6 +298,6 @@ for (i=0;i<Object.keys(elementList).length;i++) {
   <h3 align="center">Script Credits</h3>
 
   <p align="center">
-    Credit to <b>@notzastix</b> and <b>@l2xy7</b>.
+    Credit to <b>@notzastix</b> and <b>@l2vy7</b>.
   </p>
 </div>
