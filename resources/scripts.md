@@ -35,18 +35,24 @@
   <h3 align="center">Appear Offline</h3>
 
   <p align="center">
-    Appear Offline at any time.<br>
-    WARNING: This disables trading.
+    Appear Offline at any time.
   </p>
 </div>
 
 ```js
 alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
-alert('WARNING: you will not be able to trade with this script enabled')
-socket.disconnect()
-if (location.pathname === '/stats/' || location.pathname === '/stats') {
-  document.getElementById('#userElement').style.filter = 'drop-shadow(0px 0px 100px red)'
-}
+
+var scriptconfirm = confirm("WARNING: you will not be able to trade or chat with this script enabled! Click Cancel to stop the script.");
+    if (scriptconfirm == true) {
+        alert("You are now offline.");
+        socket.disconnect()
+        if (location.pathname === '/stats/' || location.pathname === '/stats') {
+        document.getElementById('#userElement').style.filter = 'drop-shadow(0px 0px 100px red)'
+        }
+    } 
+    else {
+        alert("You are NOT offine.");
+    }
 ```
 <br>
 <div id="top"></div>
