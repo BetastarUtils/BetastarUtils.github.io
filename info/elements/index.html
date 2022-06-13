@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript"> window._mNHandle = window._mNHandle || {}; window._mNHandle.queue = window._mNHandle.queue || []; medianet_versionId = "3121199";</script>
+        <script src="https://contextual.media.net/dmedianet.js?cid=8CUR1DK9I" async="async"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles/elements.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap">
+        <script src="js/socket.io.js"></script>
+        <script>var socket = io();</script>
+        <title>Betastar | Elements</title>
+        <link rel="icon" type="image/x-icon" href="https://betastargame.github.io/elements-BETA/siteLogo.png">
+    </head>
+    <body>
+        <!--Page styles:-->
+        <div id="particles-js"></div>
+        <script src="styles/particles.js"></script>
+        <script src="styles/backgroundParticles.js"></script>
+        <!--Top left text:-->
+        <header>
+            <text class="headerText" id="#headerText">Betastar Info</text>
+        </header>
+        <script>document.getElementById("#headerText").addEventListener("click", function() { window.location.href = "https://betastargame.github.io"; });</script>
+        <div class="topStuff">
+            <div class="topRarity">
+                <text id="#elementRarity" class="topRarityText" style="color: white; text-shadow: white 0px 0px 25px;">Common</text>
+            </div>
+            <div class="topElement">
+                <div style="position: relative;">
+                    <img id="#elementImage" src="https://betastar.org/image/elements/blax.png" class="topElementImage">
+                </div>
+                <text id="#elementName" class="topName">Betastar</text>
+            </div>
+            <div class="topPrice">
+                <text id="#elementPrice" class="topPricePrice">Can't be sold.</text>
+            </div>
+        </div>
+        <div class="bottomElements">
+            <!--This is the list of Elements.-->
+            <div class="elementList" id="#elementList">
+            <img src="https://betastar.org/image/elements/blax.png" onclick="viewElementBetastar(); window.currentQuantity = -1;" class="bottomElement">
+            </div>
+        </div>
+        
+        <script src="elements.js"></script>
+    </body>
+</html>
