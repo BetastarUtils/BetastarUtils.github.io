@@ -1,0 +1,439 @@
+ body {
+     margin: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #000;
+}
+
+ canvas {
+     display: block;
+}
+
+ #particles-js {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-color: #000;
+     z-index: -1;
+}
+
+ .headerText {
+     display: inline-block;
+     float: left;
+     margin-left: 0.75%;
+     font-size: 3.5vw;
+     text-align: center;
+     color: white;
+     font-family: jua;
+     text-shadow: 0px 0px 15px white;
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+ .headerText:hover {
+     transform: scale(90%);
+     text-shadow: 0px 0px 15px lightblue;
+     color: lightblue;
+}
+
+ header {
+     width: 100%;
+     overflow: hidden;
+}
+
+ .headerIcon {
+     float: right;
+     text-align: center;
+     width: 3.5vw;
+     padding: 1vw 0;
+     color: white;
+     font-size: 2vw;
+     text-shadow: 0px 0px 25px white;
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+ .headerIcon:hover {
+     transform: scale(90%);
+     text-shadow: 0px 0px 25px lightblue;
+     color: lightblue;
+}
+
+ .headerSelected {
+     color: lightblue;
+     text-shadow: 0px 0px 25px lightblue;
+}
+
+ .topElement {
+     background-color: #0f0f0f;
+     display: inline-block;
+     border-radius: 2vw;
+     margin-left: auto;
+     margin-right: auto;
+     filter: drop-shadow(0px 0px 5px #0f0f0f);
+}
+
+ .topElementImage {
+     display: block;
+     transform: scale(90%);
+     margin-left: auto;
+     margin-right: auto;
+     filter: drop-shadow(0px 0px 7.5px white);
+}
+
+ .topName {
+     display: block;
+     text-shadow: 0px 0px 25px white;
+     color: white;
+     font-family: jua;
+     font-size: 50px;
+     text-align: center;
+     margin-top: -0.5%;
+}
+
+ .topRarity {
+     background-color: #0f0f0f;
+     display: flex;
+     border-radius: 2vw;
+     width: 20%;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     filter: drop-shadow(0px 0px 5px #0f0f0f);
+}
+
+ .topRarityText {
+     font-family: jua;
+     font-size: 4vw;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+ .topPrice {
+     background-color: #0f0f0f;
+     display: flex;
+     border-radius: 2vw;
+     width: 20%;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     filter: drop-shadow(0px 0px 5px #0f0f0f);
+}
+
+ .topPricePrice {
+     color: white;
+     font-family: jua;
+     font-size: 3.5vw;
+     text-align: center;
+     text-shadow: 0px 0px 25px white;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+ .topQuantityStuff {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color: grey;
+     border: 2px solid white;
+     right: 0.5%;
+     position: absolute;
+     font-size: 25px;
+     font-family: jua;
+     color: white;
+     top: 88%;
+     text-align: center;
+     overflow: hidden;
+     text-shadow: 0px 0px 25px white;
+}
+
+ .topStuff {
+     display: flex;
+}
+
+ .bottomElements {
+     display: flex;
+     filter: drop-shadow(0px 0px 5px #0f0f0f);
+}
+
+ .elementList {
+     background-color: #0f0f0f;
+     display: flex;
+     border-radius: 2vw;
+     width: 95%;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     margin-top: 2.5%;
+     flex-flow: wrap-reverse;
+     flex-direction: row-reverse;
+}
+
+ .bottomElement {
+     display: flex;
+     max-width: 7%;
+     padding: 10px 10px 10px 10px;
+     filter: drop-shadow(0px 0px 5px white);
+     cursor: pointer;
+     transition: 0.2s;
+}
+
+ .bottomElement:hover {
+     transform: scale(90%);
+}
+
+ .elementRightClickMenu {
+     position: fixed;
+     background: #0f0f0f;
+     color: black;
+     cursor: pointer;
+     border-radius: 1vw;
+     z-index: 1000;
+}
+
+ .elementRightClickMenu > p {
+     padding: 0 5rem;
+     margin: 0;
+     text-shadow: 0px 0px 10px white;
+     font-size: 1.5vw;
+     font-family: jua;
+     text-align: center;
+     color: white;
+}
+
+ .elementRightClickMenu > p:hover {
+     background-color: #262626;
+     color: lightblue;
+     text-shadow: 0px 0px 10px lightblue;
+     border-radius: 1vw;
+}
+
+ @keyframes rainbowText {
+     0% {
+     color: red;
+     text-shadow: 0px 0px 25px red;
+     }
+     20% {
+     color: orange;
+     text-shadow: 0px 0px 25px orange;
+     }
+     40% {
+     color: yellow;
+     text-shadow: 0px 0px 25px yellow;
+     }
+     60% {
+     color: green;
+     text-shadow: 0px 0px 25px green;
+     }
+     80% { 
+     color: blue;
+     text-shadow: 0px 0px 25px blue;
+     }
+     90% {
+     color: purple;
+     text-shadow: 0px 0px 25px purple;
+     }
+     100% {
+     color: red;
+     text-shadow: 0px 0px 25px red;
+     }
+}
+
+ .loadingModal {
+     position: fixed;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgba(0,0,0,.6);
+     overflow: hidden;
+     top: 0;
+}
+
+ .errorModal {
+     position: fixed;
+     width: 100vw;
+     height: 100vh;
+     top: 0;
+     overflow: hidden;
+}
+
+ .errorPopup {
+     position: fixed;
+     width: 50vw;
+     height: 50vh;
+     border-radius: 1vw;
+     background-color: white;
+     left: 25vw;
+     top: 25vh;
+     box-shadow: 0px 0px 15px darkred;
+     animation: zoomInErrorPopup 1s 0s ease forwards;
+}
+
+ .errorElementModal {
+     position: fixed;
+     width: 100vw;
+     height: 100vh;
+     top: 0;
+     background-color: rgba(0,0,0,.6);
+     overflow: hidden;
+}
+
+ .errorElementPopup {
+     position: fixed;
+     width: 50vw;
+     height: 50vh;
+     border-radius: 1vw;
+     background-color: white;
+     left: 25vw;
+     top: 25vh;
+     box-shadow: 0px 0px 15px darkred;
+     animation: zoomInErrorPopup 1s 0s ease forwards;
+}
+
+ .errorText {
+     position:absolute;
+     font-size: 6.4vw;
+     color: white;
+     left: 18vw;
+     top: 0vh;
+     text-shadow: 0px 0px 15px black;
+     font-family: jua;
+}
+
+ .sellModal {
+     position: fixed;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgba(0,0,0,.6);
+     top: 0;
+     overflow: hidden;
+}
+
+ .sellPopup {
+     position: fixed;
+     width: 50vw;
+     height: 50vh;
+     border-radius: 1vw;
+     background-color: white;
+     left: 25vw;
+     top: 25vh;
+     box-shadow: 0px 0px 15px blue;
+     animation: zoomInErrorPopup 1s 0s ease forwards;
+}
+
+ .sellText {
+     font-size: 3.4vw;
+     text-align: center;
+     color: white;
+     text-shadow: 0px 0px 15px black;
+     font-family: jua;
+     display: block;
+     margin-top: 2%;
+}
+
+ .sellOutOf {
+     font-size: 3.4vw;
+     text-align: center;
+     color: white;
+     text-shadow: 0px 0px 15px black;
+     font-family: jua;
+     display: block;
+     margin-top: 2vh;
+}
+
+ .inputField {
+     border-radius: 0.85vw;
+     box-shadow: 0px 0px 20px black;
+     border: none;
+     width: 20vw;
+     height: 2.25vw;
+     color: #3a3a3a;
+     font-size: 1.3vw;
+     text-align: center;
+     text-shadow: 0px 0px 20px black;
+     font-family: jua;
+     display: inline-block;
+     margin-left: 15vw;
+     margin-top: 3vh;
+}
+
+ .cancelButton {
+     border-radius: 0.85vw;
+     border:0vw solid #ffffff;
+     width: 11vw;
+     height: 4.3vw;
+     color: #3a3a3a;
+     font-size: 2.3vw;
+     text-align: center;
+     text-shadow: 0px 0px 20px black;
+     font-family: jua;
+     position: absolute;
+     left: 26vw;
+     top: 39.5vh;
+     cursor: pointer;
+     transition: 0.2s;
+     filter: drop-shadow(0px 0px 15px black);
+}
+
+ .cancelButton:hover {
+     transform: scale(90%);
+}
+
+ .errorReason {
+     font-size: 3.4vw;
+     color: white;
+     text-align: center;
+     text-shadow: 0px 0px 15px black;
+     font-family: jua;
+     display: block;
+     transform: translateY(17vh);
+}
+
+ .okayButton {
+     border-radius: 0.85vw;
+     border:0vw solid #ffffff;
+     width: 11vw;
+     height: 4.3vw;
+     color: #3a3a3a;
+     font-size: 2.3vw;
+     text-align: center;
+     text-shadow: 0px 0px 20px black;
+     font-family: jua;
+     position: absolute;
+     left: 14vw;
+     top: 39.5vh;
+     cursor: pointer;
+     transition: 0.2s;
+     filter: drop-shadow(0px 0px 15px black);
+}
+
+ .okayButton:hover {
+     transform: scale(90%);
+}
+
+ .okayButtonElement {
+     border-radius: 0.85vw;
+     border:0vw solid #ffffff;
+     width: 11vw;
+     height: 4.3vw;
+     color: #3a3a3a;
+     font-size: 2.3vw;
+     text-align: center;
+     text-shadow: 0px 0px 20px black;
+     font-family: jua;
+     position: absolute;
+     left: 20vw;
+     top: 39.5vh;
+     cursor: pointer;
+     filter: drop-shadow(0px 0px 15px black);
+     transition: 0.2s;
+}
+
+ .okayButtonElement:hover {
+     transform: scale(90%);
+}
+
+ @keyframes zoomInErrorPopup {
+     0% {transform: scale(0%);}
+     50% {transform: scale(110%);}
+     100% {transform: scale(100%);}
+}
