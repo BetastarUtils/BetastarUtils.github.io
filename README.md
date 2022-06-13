@@ -8,7 +8,7 @@
 
   <p align="center">
     Utilites for Betastar!<br>
-    This site is maintained, updated, and checked for errors daily.
+    This site is archived. <a href="https://github.com/VillainsRule4000/Betastar">Why?</a>
   </p>
   <h3><a href="https://betastargame.github.io/">Main site!</a></h3>
 </div>
