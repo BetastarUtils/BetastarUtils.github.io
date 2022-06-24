@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
+    <img src="/assets/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Alt Accounts</h1>
   <h3 align="center">Only one alt is allowed. These instructions are meant to help you make ONE. Any more you make are NOT my responsibiliy/fault. This is a factual database, made ot inform.</h3>
@@ -35,7 +35,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/images/diamondGift.png" alt="Logo" width="190" height="200">
+  <img src="/assets/credits.png" alt="Logo" width="190" height="200">
   <h3 align="center">Credits</h3>
 
   <p align="center">
