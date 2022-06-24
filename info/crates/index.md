@@ -2,12 +2,12 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://betastargame.github.io/images/logo.png" alt="Logo" width="300" height="300">
+    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Crates</h1>
 
   <p align="center">
-    <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
+    <a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue</a>
   </p>
 </div>
 <br>
@@ -20,8 +20,7 @@
 
   <p align="center">
     The average Betastar player cannot look inside the Noble crate.<br>
-    That's mainly why it's here, but it's still a nice reference guide.<br>
-    Element list may be coming soon!
+    That's mainly why it's here, but it's still a nice reference guide.
   </p>
 </div>
 <br>
@@ -44,7 +43,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/noble.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/noble.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Noble Crate</h3>
 
   <p align="center">
@@ -64,7 +63,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/actino.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/actino.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Actino Crate</h3>
 
   <p align="center">
@@ -82,7 +81,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/transit.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/transit.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Transit Crate</h3>
 
   <p align="center">
@@ -131,7 +130,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/lanthan.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/lanthan.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Lanthan Crate</h3>
 
   <p align="center">
@@ -157,7 +156,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/non.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/non.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Non Crate</h3>
 
   <p align="center">
@@ -180,7 +179,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/alkali.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/alkali.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Alkali Crate</h3>
 
   <p align="center">
@@ -203,7 +202,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/info/crates/metallo.png" alt="Crate image" width="200" height="200">
+  <img src="/info/crates/metallo.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Metallo Crate</h3>
 
   <p align="center">
@@ -227,7 +226,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VillainsRule4000">
-    <img src="https://betastargame.github.io/images/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="/images/diamondGift.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Info Credits</h3>
 
