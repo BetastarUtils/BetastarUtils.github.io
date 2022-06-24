@@ -43,7 +43,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/noble.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/noble.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Noble Crate</h3>
 
   <p align="center">
@@ -63,7 +63,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/actino.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/actino.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Actino Crate</h3>
 
   <p align="center">
@@ -81,7 +81,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/transit.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/transit.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Transit Crate</h3>
 
   <p align="center">
@@ -130,7 +130,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/lanthan.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/lanthan.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Lanthan Crate</h3>
 
   <p align="center">
@@ -156,7 +156,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/non.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/non.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Non Crate</h3>
 
   <p align="center">
@@ -179,7 +179,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/alkali.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/alkali.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Alkali Crate</h3>
 
   <p align="center">
@@ -202,7 +202,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/info/crates/metallo.png" alt="Crate image" width="200" height="200">
+  <img src="/assets/crates/metallo.png" alt="Crate image" width="200" height="200">
   <h3 align="center">Metallo Crate</h3>
 
   <p align="center">
@@ -226,7 +226,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VillainsRule4000">
-    <img src="/images/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="/assets/diamondGift.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Info Credits</h3>
 
