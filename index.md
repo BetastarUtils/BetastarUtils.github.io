@@ -14,7 +14,7 @@
     <b>Announcements:</b><br>
     None<br>
     <br>
-    <b><a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue.</a></b>
+    <b><a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue.</a></b>
   </p>
 </div>
 <br>
@@ -32,12 +32,12 @@
   <a href="/resources/scripts">
     <img src="/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
   </a>
-  <h3 align="center">Scripts</h3>
+  <h3 align="center">Hacks</h3>
 
   <p align="center">
-    Also known as hacks.<br>
+    Created by a few people, compiled here.<br>
     <br>
-    Created by <b>Zastix (@notzastix)</b> and <b> acai (@l2vy7)</b>.
+    <b>The former script makers quit, so there might be issues. Report link above.</b>
   </p>
 </div>
 <br>
