@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://betastargame.github.io/images/logo.png" alt="Betastar Logo" width="300" height="300">
+    <img src="/images/siteLogo.png" alt="BetastarUtils Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Utilities</h1>
   
@@ -29,8 +29,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/resources/scripts">
-    <img src="https://betastargame.github.io/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
+  <a href="/resources/scripts">
+    <img src="/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Scripts</h3>
 
@@ -51,8 +51,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/info/startguide">
-    <img src="https://icon-library.com/images/play-icon-white-png/play-icon-white-png-4.jpg" alt="Decor Image" width="200" height="200">
+  <a href="/info/startguide">
+    <img src="/images/play.jpeg" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Starter Guide</h3>
 
@@ -65,8 +65,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/info/crates">
-    <img src="https://betastargame.github.io/info/crates/noble.png" alt="Decor Image" width="200" height="200">
+  <a href="/info/crates">
+    <img src="/info/crates/noble.png" alt="Decor Image" width="200" height="200">
   </a>
   <h3 align="center">Crates</h3>
 
@@ -79,8 +79,8 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://betastargame.github.io/info/alts">
-    <img src="https://betastargame.github.io/images/register.png" alt="Decor Image" width="200" height="82">
+  <a href="/info/alts">
+    <img src="/images/register.png" alt="Decor Image" width="200" height="82">
   </a>
   <h3 align="center">Alt Accounts</h3>
 
@@ -95,7 +95,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/images/diamondGift.png" alt="Decor Image" width="95" height="100">
+  <img src="/images/diamondGift.png" alt="Decor Image" width="95" height="100">
   <h3 align="center">Credits</h3>
 
   <p align="center">
