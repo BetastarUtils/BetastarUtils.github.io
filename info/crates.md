@@ -226,7 +226,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VillainsRule4000">
-    <img src="/assets/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="/assets/credits.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Info Credits</h3>
 
