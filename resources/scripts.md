@@ -2,12 +2,12 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://betastargame.github.io/images/logo.png" alt="Logo" width="300" height="300">
+    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Scripts</h1>
 
   <p align="center">
-    <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
+    <a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue</a>
   </p>
 </div>
 <div id="top"></div>
@@ -31,7 +31,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/images/spaceTerminal.png" alt="Logo" width="200" height="200">
+  <img src="/images/spaceTerminal.png" alt="Logo" width="200" height="200">
   <h3 align="center">Appear Offline</h3>
 
   <p align="center">
@@ -40,7 +40,7 @@
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Script coded by zastix.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
 
 var scriptconfirm = confirm("WARNING: you will not be able to trade or chat with this script enabled! Click Cancel to stop the script.");
     if (scriptconfirm == true) {
@@ -79,7 +79,7 @@ var scriptconfirm = confirm("WARNING: you will not be able to trade or chat with
 // @grant        none
 // ==/UserScript==
 
-alert('Script coded by l2xy7 or acai, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Script coded by l2vy7 or acai.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
 
 (function() {
     'use strict';
@@ -153,7 +153,8 @@ alert('Script coded by l2xy7 or acai, Betastar tester\nFor more scripts, visit\n
 </div>
 
 ```js
-alert('Script coded by tremblero and updated by zastix, Betastar testers\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Script coded by tremblero & updated by zastix.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
+
 try {
     let element = prompt('What element are you trying to get?').toLowerCase()
     let amt = prompt('How many crates are you opening?')
@@ -175,7 +176,7 @@ try {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/images/sellElement.png" alt="Logo" width="200" height="90">
+  <img src="/images/sellElement.png" alt="Logo" width="200" height="90">
   <h3 align="center">Sell Duplicate Elements</h3>
 
   <p align="center">
@@ -184,7 +185,7 @@ try {
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Script coded by zastix.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
 alert('Are you sure? There is no way to exempt elements in ANY WAY.')
 
 $.get('/api/user/elements', function(data) {
@@ -203,7 +204,7 @@ async function sell(element) {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/images/spamCrates.png" alt="Logo" width="110" height="300">
+  <img src="/images/spamCrates.png" alt="Logo" width="110" height="300">
   <h3 align="center">Spam Open Crates</h3>
 
   <p align="center">
@@ -212,7 +213,7 @@ async function sell(element) {
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Script coded by zastix.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
 
 var i = 0;
 var boxes = []
@@ -264,7 +265,7 @@ var check = setInterval(() => {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="https://betastargame.github.io/images/allElements.png" alt="Logo" width="500" height="250">
+  <img src="/images/allElements.png" alt="Logo" width="500" height="250">
   <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
@@ -273,7 +274,7 @@ var check = setInterval(() => {
 </div>
 
 ```js
-alert('Script coded by Zastix, Betastar tester\nFor more scripts, visit\nhttps://betastargame.github.io/')
+alert('Script coded by zastix.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
 
 Array.from(document.getElementById('#elementList').children).forEach(a => a.remove())
 Object.entries(elementList).forEach((entry) => {
@@ -285,19 +286,3 @@ for (i=0;i<Object.keys(elementList).length;i++) {
     userElements[elemes[i]] = Math.floor(elementList[elemes[i]]['chance'] / 2 + Math.round(Math.random() * 20));
 }
 ```
-<br>
-<br>
-<br>
-<br>
-<div id="top"></div>
-<br />
-<div align="center">
-  <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="https://betastargame.github.io/images/diamondGift.png" alt="Logo" width="190" height="200">
-  </a>
-  <h3 align="center">Script Credits</h3>
-
-  <p align="center">
-    Credit to <b>@notzastix</b> and <b>@l2vy7</b>.
-  </p>
-</div>
