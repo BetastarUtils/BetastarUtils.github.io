@@ -2,12 +2,12 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://betastargame.github.io/images/logo.png" alt="Logo" width="300" height="300">
+    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Starter Guide</h1>
 
   <p align="center">
-    <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
+    <a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue</a>
   </p>
 </div>
 <div id="top"></div>
@@ -53,9 +53,7 @@
 
   <p align="center">
     To get elements, open the market. This is the page with the crate icon and seven big boxes. Click a box, and then you can buy it.<br>
-    There is a certain chance you can get things from a box. You can click the rates button (appears upon crate click) to see this.<br>
-    - <a href="https://betastargame.github.io/info/crates/">Crates + Drop rate info</a><br>
-    - <a href="https://betastargame.github.io/info/alts/">Making alts for more daily atoms</a>
+    There is a certain chance you can get things from a box. You can click the rates button (appears upon crate click) to see this.
   </p>
 </div>
 <br>
@@ -93,7 +91,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VillainsRule4000">
-    <img src="https://betastargame.github.io/images/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="/images/diamondGift.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Credits</h3>
 
