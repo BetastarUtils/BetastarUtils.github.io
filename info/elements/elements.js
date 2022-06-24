@@ -239,6 +239,9 @@ function viewElement(name) {
         case "Perfect":
             color = "#fffacd";
             break;
+        case "Divine":
+            color = "#ee82ee";
+            break;
     }
     document.getElementById("#elementRarity").style.color = color;
     document.getElementById("#elementRarity").style.textShadow = "0px 0px 25px " + color;
