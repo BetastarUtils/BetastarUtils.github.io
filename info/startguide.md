@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
+    <img src="/assets/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Starter Guide</h1>
 
@@ -91,7 +91,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VillainsRule4000">
-    <img src="/images/diamondGift.png" alt="Logo" width="190" height="200">
+    <img src="/assets/credits.png" alt="Logo" width="190" height="200">
   </a>
   <h3 align="center">Credits</h3>
 
