@@ -1,4 +1,52 @@
 var elements = {
+    "Bromine" : [
+      "Legendary",
+      "250 atoms"
+    ],
+    "Fluorine" : [
+      "Legendary",
+      "200 atoms"
+    ],
+    "Iodine" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Selenium" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Phosphorus" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Carbon" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Chlorine" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Hydrogen" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Sulfur" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Nitrogen" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Oxygen" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Hydrogen" : [
+      "Uncommon",
+      "5 atoms"
+    ],
     "Holmium" : [
       "Legendary",
       "250 atoms"
