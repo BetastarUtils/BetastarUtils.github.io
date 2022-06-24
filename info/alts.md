@@ -2,12 +2,12 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="https://betastargame.github.io/images/logo.png" alt="Logo" width="300" height="300">
+    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Alt Accounts</h1>
-
+  <h3 align="center">Only one alt is allowed. These instructions are meant to help you make ONE. Any more you make are NOT my responsibiliy/fault. This is a factual database, made ot inform.</h3>
   <p align="center">
-    <a href="https://github.com/BetastarGame/BetastarGame.github.io/issues">Report an Issue</a>
+    <a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue</a>
   </p>
 </div>
 <div id="top"></div>
@@ -35,9 +35,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://github.com/notzastix/blacket-hacks">
-    <img src="https://betastargame.github.io/images/diamondGift.png" alt="Logo" width="190" height="200">
-  </a>
+  <img src="/images/diamondGift.png" alt="Logo" width="190" height="200">
   <h3 align="center">Credits</h3>
 
   <p align="center">
