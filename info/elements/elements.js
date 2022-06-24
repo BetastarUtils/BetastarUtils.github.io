@@ -1,4 +1,60 @@
 var elements = {
+    "Holmium" : [
+      "Legendary",
+      "250 atoms"
+    ],
+    "Praseodymium" : [
+      "Legendary",
+      "200 atoms"
+    ],
+    "Neodymium" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Lanthanum" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Dysprosium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Ytterbium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Erbium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Lutetium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Promethium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Gadolinium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Samarium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Cerium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Terbium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Thulium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
     "Bismuth" : [
       "Divine",
       "25,000 atoms"
