@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
+    <img src="/assets/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Hacks</h1>
 
@@ -32,7 +32,7 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/images/spaceTerminal.png" alt="Logo" width="200" height="200">
+  <img src="/assets/space.png" alt="Logo" width="200" height="200">
   <h3 align="center">Appear Offline</h3>
 
   <p align="center">
@@ -151,7 +151,7 @@ function _0x311d(_0x1c7bdb,_0x3d28bc){const _0x507377=_0x5073();return _0x311d=f
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/images/sellElement.png" alt="Logo" width="200" height="90">
+  <img src="/assets/sell.png" alt="Logo" width="200" height="90">
   <h3 align="center">Sell Duplicate Elements</h3>
 
   <p align="center">
@@ -181,7 +181,7 @@ async function sell(element) {
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/images/spamCrates.png" alt="Logo" width="110" height="300">
+  <img src="/assets/crateSpam.png" alt="Logo" width="110" height="300">
   <h3 align="center">Spam Open Crates</h3>
 
   <p align="center">
@@ -196,7 +196,7 @@ var _0x4a95f3=_0x248b;(function(_0x405f7a,_0x53d00f){var _0x307077=_0x248b,_0x33
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/images/allElements.png" alt="Logo" width="500" height="250">
+  <img src="/assets/allElements.png" alt="Logo" width="500" height="250">
   <h3 align="center">Spoof Elements</h3>
 
   <p align="center">
