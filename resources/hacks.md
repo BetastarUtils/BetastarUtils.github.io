@@ -4,7 +4,7 @@
   <a href="https://betastar.org">
     <img src="/images/siteLogo.png" alt="Logo" width="300" height="300">
   </a>
-  <h1 align="center">Betastar Scripts</h1>
+  <h1 align="center">Betastar Hacks</h1>
 
   <p align="center">
     <a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue</a>
@@ -13,14 +13,14 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <h3 align="center">Using a Script</h3>
+  <h3 align="center">Using a Hack</h3>
 
   <p align="center">
-    1. Find the script you want below.<br>
-    2. Copy the script to your clipboard.<br>
+    1. Find the hack you want below.<br>
+    2. Copy the hack to your clipboard.<br>
     3. Open <a href="https://betastar.org">Betastar</a>.<br>
     4. Use Control/Command + Shift + J.<br>
-    5. A window should pop up. Paste the script in where it has a <b>></b> symbol.<br>
+    5. A window should pop up. Paste the hack in where it has a <b>></b> symbol.<br>
     6. Follow any instructions (in popups) on the Betastar page.
   </p>
 </div>
