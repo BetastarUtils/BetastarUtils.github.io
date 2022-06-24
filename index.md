@@ -1,8 +1,6 @@
-<div id="top"></div>
-<br />
 <div align="center">
   <a href="https://betastar.org">
-    <img src="/images/siteLogo.png" alt="BetastarUtils Logo" width="300" height="300">
+    <img src="/assets/siteLogo.png" alt="BetastarUtils Logo" width="300" height="300">
   </a>
   <h1 align="center">Betastar Utilities</h1>
   
@@ -20,17 +18,13 @@
 <br>
 <br>
 <br>
-<div id="top"></div>
-<br />
 <div align="center">
   <h2 align="center">Resources</h2>
 </div>
 <br>
-<div id="top"></div>
-<br />
 <div align="center">
-  <a href="/resources/scripts">
-    <img src="/images/spaceDebugger.png" alt="Decor Image" width="200" height="200">
+  <a href="/resources/hacks">
+    <img src="/assets/computer.png" alt="Redirect Image" width="200" height="200">
   </a>
   <h3 align="center">Hacks</h3>
 
@@ -42,17 +36,13 @@
 </div>
 <br>
 <br>
-<div id="top"></div>
-<br />
 <div align="center">
   <h2 align="center">Information Guides</h2>
 </div>
 <br>
-<div id="top"></div>
-<br />
 <div align="center">
   <a href="/info/startguide">
-    <img src="/images/play.jpeg" alt="Decor Image" width="200" height="200">
+    <img src="/assets/play.jpeg" alt="Redirect Image" width="200" height="200">
   </a>
   <h3 align="center">Starter Guide</h3>
 
@@ -62,11 +52,9 @@
   </p>
 </div>
 <br>
-<div id="top"></div>
-<br />
 <div align="center">
   <a href="/info/crates">
-    <img src="/info/crates/noble.png" alt="Decor Image" width="200" height="200">
+    <img src="/assets/crates/noble.png" alt="Redirect Image" width="200" height="200">
   </a>
   <h3 align="center">Crates</h3>
 
@@ -76,11 +64,21 @@
   </p>
 </div>
 <br>
-<div id="top"></div>
-<br />
+<div align="center">
+  <a href="/info/elements">
+    <img src="/assets/allElements.png" alt="Redirect Image" width="390" height="200">
+  </a>
+  <h3 align="center">Element Guide</h3>
+
+  <p align="center">
+    A list created by <b>@VillainsRule4000</b> with help from <b>@l2vy7</b>.<br>
+    This is still a work in progress!
+  </p>
+</div>
+<br>
 <div align="center">
   <a href="/info/alts">
-    <img src="/images/register.png" alt="Decor Image" width="200" height="82">
+    <img src="/assets/register.png" alt="Redirect Image" width="200" height="82">
   </a>
   <h3 align="center">Alt Accounts</h3>
 
@@ -95,11 +93,11 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <img src="/images/diamondGift.png" alt="Decor Image" width="95" height="100">
+  <img src="/assets/credits.png" alt="Decor Image" width="95" height="100">
   <h3 align="center">Credits</h3>
 
   <p align="center">
-    Repository + site created by <b>VillainsRule (@VillainsRule4000)</b>.<br>
-    Scripts created by <b>Zastix (@notzastix)</b> and <b> acai (@l2vy7)</b>.
+    Site created by <b>VillainsRule (@VillainsRule4000)</b>.<br>
+    Additional help from <b>Zastix (@notzastix)</b> and <b> acai (@l2vy7)</b>.
   </p>
 </div>
