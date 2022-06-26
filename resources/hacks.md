@@ -155,42 +155,25 @@ function _0x311d(_0x1c7bdb,_0x3d28bc){const _0x507377=_0x5073();return _0x311d=f
   <h3 align="center">Sell Duplicate Elements</h3>
 
   <p align="center">
-    Sell all your duplicate Elements, automatically.<br>
-    <br>
-    <b>Is glitching + being worked on! Please wait for a fix.</b>
+    Sell all your duplicate Elements, automatically.
   </p>
 </div>
 
 ```js
-alert('Script coded by zastix.\nFor more scripts, visit\nhttps://betastarutils.github.io/')
-alert('Are you sure? There is no way to exempt elements in ANY WAY.')
-
-$.get('/api/user/elements', function(data) {
-    window.userElements = JSON.parse(data)
-    Object.keys(elementList).forEach(element => sell(element))
-})
-async function sell(element) {
-    var amt =  window.userElements[element] - 1
-    if (0 >= amt) return
-    $.post(`/api/sell/`, `element=${element}&quantity=${amt}`, function() {
-        isNaN(amt) ? return : console.log(`Sold ${amt} ${element}(s)`)
-    })
-}
+function _0x5098(){var _0x35ed74=['parse','209846YMAqbw','1337192ajyKXG','Sold\x20','8232246XHLrfG','(s)','get','userElements','6375276DVmkzg','forEach','2532360DHJmwV','Script\x20coded\x20by\x20zastix.\x0aFor\x20more\x20scripts,\x20visit\x0ahttps://betastarutils.github.io/','Are\x20you\x20sure?\x20There\x20is\x20no\x20way\x20to\x20exempt\x20elements\x20in\x20ANY\x20WAY.','368rSABAO','/api/sell/','&quantity=','908270oeQhjj','element=','keys','3646240MpevZj'];_0x5098=function(){return _0x35ed74;};return _0x5098();}var _0x502ee1=_0x163a;function _0x163a(_0x284f69,_0x3f81a9){var _0x509873=_0x5098();return _0x163a=function(_0x163ad7,_0x414867){_0x163ad7=_0x163ad7-0x101;var _0x3037c9=_0x509873[_0x163ad7];return _0x3037c9;},_0x163a(_0x284f69,_0x3f81a9);}(function(_0x45007b,_0x3cbac9){var _0xe9922=_0x163a,_0x412508=_0x45007b();while(!![]){try{var _0x2924a7=-parseInt(_0xe9922(0x102))/0x1+-parseInt(_0xe9922(0x110))/0x2+-parseInt(_0xe9922(0x10a))/0x3+parseInt(_0xe9922(0x108))/0x4+-parseInt(_0xe9922(0x113))/0x5+parseInt(_0xe9922(0x104))/0x6+-parseInt(_0xe9922(0x101))/0x7*(-parseInt(_0xe9922(0x10d))/0x8);if(_0x2924a7===_0x3cbac9)break;else _0x412508['push'](_0x412508['shift']());}catch(_0x2997b5){_0x412508['push'](_0x412508['shift']());}}}(_0x5098,0xef4b9),alert(_0x502ee1(0x10b)),alert(_0x502ee1(0x10c)),$[_0x502ee1(0x106)]('/api/user/elements',function(_0x124e26){var _0x5e333b=_0x502ee1;window[_0x5e333b(0x107)]=JSON[_0x5e333b(0x114)](_0x124e26),Object[_0x5e333b(0x112)](elementList)[_0x5e333b(0x109)](_0x531869=>sell(_0x531869));}));async function sell(_0x3512fe){var _0x1fd726=_0x502ee1,_0x558b24=window[_0x1fd726(0x107)][_0x3512fe]-0x1;if(0x0>=_0x558b24)return;$['post'](_0x1fd726(0x10e),_0x1fd726(0x111)+_0x3512fe+_0x1fd726(0x10f)+_0x558b24,function(){var _0x57b93e=_0x1fd726;isNaN(_0x558b24)?'':console['log'](_0x57b93e(0x103)+_0x558b24+'\x20'+_0x3512fe+_0x57b93e(0x105));});}
 ```
 <br>
-<div id="top"></div>
-<br />
 <div align="center">
   <img src="/assets/crateSpam.png" alt="Logo" width="110" height="300">
   <h3 align="center">Spam Open Crates</h3>
 
   <p align="center">
-    Quickly get the elements from any crate. Works QUITE quickly.
+    Quickly get elements from any crate. Works QUITE quickly.
   </p>
 </div>
 
 ```js
-var _0x4a95f3=_0x248b;(function(_0x405f7a,_0x53d00f){var _0x307077=_0x248b,_0x338811=_0x405f7a();while(!![]){try{var _0x4feb2b=parseInt(_0x307077(0xa0))/0x1+-parseInt(_0x307077(0x84))/0x2+parseInt(_0x307077(0x92))/0x3*(parseInt(_0x307077(0x8e))/0x4)+-parseInt(_0x307077(0x8a))/0x5+parseInt(_0x307077(0x81))/0x6*(-parseInt(_0x307077(0x94))/0x7)+-parseInt(_0x307077(0x97))/0x8+parseInt(_0x307077(0x91))/0x9*(parseInt(_0x307077(0x85))/0xa);if(_0x4feb2b===_0x53d00f)break;else _0x338811['push'](_0x338811['shift']());}catch(_0x165014){_0x338811['push'](_0x338811['shift']());}}}(_0x1ba5,0x43b7f),alert(_0x4a95f3(0x83)));var i=0x0,boxes=[];colors={'divine':_0x4a95f3(0x90),'mythical':_0x4a95f3(0x98),'perfect':_0x4a95f3(0x8b),'fabled':_0x4a95f3(0x82),'legendary':_0x4a95f3(0x9b),'epic':_0x4a95f3(0x9d),'rare':'#0a14fa','uncommon':'#4bc22e','common':'#ffffff'},Object['keys'](cratesList)[_0x4a95f3(0x9e)](_0xcc78f8=>{var _0x435ef2=_0x4a95f3;boxes[_0x435ef2(0x9c)](_0xcc78f8);});function _0x248b(_0x683061,_0x1438ab){var _0x1ba51c=_0x1ba5();return _0x248b=function(_0x248b86,_0x42c02a){_0x248b86=_0x248b86-0x7f;var _0x4ccdbf=_0x1ba51c[_0x248b86];return _0x4ccdbf;},_0x248b(_0x683061,_0x1438ab);}var name=prompt(_0x4a95f3(0x9f)+boxes[_0x4a95f3(0x7f)]('\x0a'));!boxes['includes'](name)&&(alert(_0x4a95f3(0x87)),name=prompt('Which\x20crate\x20would\x20you\x20like\x20to\x20open?\x0a\x0aOptions:\x0a'+boxes[_0x4a95f3(0x7f)]('\x0a')));function _0x1ba5(){var _0x5658a1=['#be0000','forEach','Which\x20crate\x20would\x20you\x20like\x20to\x20open?\x0a\x0aOptions:\x0a','284097MVcqXI','join','MAX_VALUE','3534QhCJSs','#0c7500','Script\x20coded\x20by\x20zastix.\x0aFor\x20more\x20scripts,\x20visit\x0ahttps://betastarutils.github.io/','276264HkKfBi','6005410YmiVgn','toLowerCase','That\x20crate\x20doesn\x27t\x20exist...','color:\x20','post','2245930crsljz','#fffacd','You\x27re\x20being\x20rate\x20limited.','crate=','100mFkYST','%c%s','#ee82ee','9ZFKIsu','4953miYCIX','log','658fwDXGw',';\x20font-size:\x2025px;\x20text-shadow:\x200px\x200px\x2015px\x20','How\x20many\x20crates\x20would\x20you\x20like\x20to\x20open?\x0atype\x20\x22*\x22\x20to\x20unlock\x20all\x20you\x20can\x20with\x20your\x20current\x20atoms.','46832XEfbFy','#a335ee','/api/open/','rarity','#ff910f','push'];_0x1ba5=function(){return _0x5658a1;};return _0x1ba5();}var amt=Number(prompt(_0x4a95f3(0x96)));if(isNaN(amt))amt=Number[_0x4a95f3(0x80)];function buyBox(){var _0x12fbee=_0x4a95f3;$[_0x12fbee(0x89)](_0x12fbee(0x99),_0x12fbee(0x8d)+name,function(_0x3e8265){var _0x20e003=_0x12fbee;try{if(_0x3e8265===_0x20e003(0x8c))i--;else rarity=elementList[_0x3e8265][_0x20e003(0x9a)][_0x20e003(0x86)](),console[_0x20e003(0x93)](_0x20e003(0x8f),_0x20e003(0x88)+colors[rarity]+_0x20e003(0x95)+colors[rarity]+';',''+_0x3e8265);}catch(_0x4a1756){i=amt;}});}var check=setInterval(()=>{i<amt?(buyBox(),i++):(clearInterval(check),alert('Done\x20buying\x20boxes!\x20Check\x20the\x20console\x20or\x20the\x20Elements\x20page.'));},0x1f4);
+var _0x3a7c11=_0x5b96;function _0x5b96(_0x4d0017,_0x237561){var _0x16738b=_0x1673();return _0x5b96=function(_0x5b9656,_0x39a50f){_0x5b9656=_0x5b9656-0x129;var _0x146f38=_0x16738b[_0x5b9656];return _0x146f38;},_0x5b96(_0x4d0017,_0x237561);}(function(_0x1b526a,_0x410f28){var _0x1b2672=_0x5b96,_0x332ffc=_0x1b526a();while(!![]){try{var _0x5c411b=parseInt(_0x1b2672(0x149))/0x1+-parseInt(_0x1b2672(0x137))/0x2*(parseInt(_0x1b2672(0x139))/0x3)+-parseInt(_0x1b2672(0x12a))/0x4+parseInt(_0x1b2672(0x14a))/0x5+parseInt(_0x1b2672(0x12d))/0x6*(parseInt(_0x1b2672(0x13b))/0x7)+parseInt(_0x1b2672(0x147))/0x8+parseInt(_0x1b2672(0x131))/0x9*(-parseInt(_0x1b2672(0x148))/0xa);if(_0x5c411b===_0x410f28)break;else _0x332ffc['push'](_0x332ffc['shift']());}catch(_0x11115){_0x332ffc['push'](_0x332ffc['shift']());}}}(_0x1673,0x222af),alert(_0x3a7c11(0x140)));var i=0x0,boxes=[];colors={'divine':_0x3a7c11(0x12f),'mythical':_0x3a7c11(0x133),'perfect':_0x3a7c11(0x129),'fabled':_0x3a7c11(0x142),'legendary':_0x3a7c11(0x13d),'epic':_0x3a7c11(0x141),'rare':_0x3a7c11(0x130),'uncommon':_0x3a7c11(0x13e),'common':'#ffffff'};var name=prompt(_0x3a7c11(0x134)+Object[_0x3a7c11(0x13a)](cratesList)[_0x3a7c11(0x12c)]('\x0a'));!Object[_0x3a7c11(0x13a)](cratesList)[_0x3a7c11(0x144)](name)&&(alert(_0x3a7c11(0x135)),name=prompt(_0x3a7c11(0x134)+Object['keys'](cratesList)[_0x3a7c11(0x12c)]('\x0a')));var amt=Number(prompt(_0x3a7c11(0x132)));if(isNaN(amt))amt=Number['MAX_VALUE'];function buyBox(){var _0x56cced=_0x3a7c11;$[_0x56cced(0x13c)](_0x56cced(0x145),'crate='+name,function(_0x31e75a){var _0x250576=_0x56cced;try{if(_0x31e75a[_0x250576(0x144)]('rate'))i--;else rarity=elementList[_0x31e75a][_0x250576(0x146)][_0x250576(0x143)](),console[_0x250576(0x12b)](_0x250576(0x136),_0x250576(0x13f)+colors[rarity]+_0x250576(0x138)+colors[rarity]+';',''+_0x31e75a);}catch(_0x170025){i=amt;}});}var check=setInterval(()=>{var _0x1852a4=_0x3a7c11;i<amt?(buyBox(),i++):(clearInterval(check),alert(_0x1852a4(0x12e)));},0x1f4);function _0x1673(){var _0x5c3d2f=['132KfeQBV','Done\x20buying\x20boxes!\x20Check\x20the\x20console\x20or\x20the\x20Elements\x20page.','#ee82ee','#0a14fa','2107656chtMzI','How\x20many\x20crates\x20would\x20you\x20like\x20to\x20open?\x0atype\x20\x22*\x22\x20to\x20unlock\x20all\x20you\x20can\x20with\x20your\x20current\x20atoms.','#a335ee','Which\x20crate\x20would\x20you\x20like\x20to\x20open?\x0a\x0aOptions:\x0a','That\x20crate\x20doesn\x27t\x20exist...','%c%s','230566CsfzVX',';\x20font-size:\x2025px;\x20text-shadow:\x200px\x200px\x2015px\x20','3ZoCtpG','keys','16478ebIjQB','post','#ff910f','#4bc22e','color:\x20','Script\x20coded\x20by\x20zastix.\x0aFor\x20more\x20scripts,\x20visit\x0ahttps://betastarutils.github.io/','#be0000','#0c7500','toLowerCase','includes','/api/open/','rarity','1602632IRfcTl','10wYTKVZ','222946YYDySg','1351135AdBHwc','#fffacd','1023488QlQGlb','log','join'];_0x1673=function(){return _0x5c3d2f;};return _0x1673();}
 ```
 <br>
 <div id="top"></div>
