@@ -1,11 +1,3 @@
-function viewElementActU() {
-document.getElementById("#elementRarity").innerText = "Mythical";
-document.getElementById("#elementRarity").style.color = "#a335ee";
-document.getElementById("#elementRarity").style.textShadow = "0px 0px 25px #a335ee";
-document.getElementById("#elementImage").src = "https://betastar.org/image/elements/activatedUranium.gif";
-document.getElementById("#elementName").innerText = "Activated Uranium";
-document.getElementById("#elementPrice").innerText = "1,000 atoms";
-}
 var elements = {
     "SlipperyT" : [
       "Divine",
