@@ -1,4 +1,28 @@
 var elements = {
+    "SlipperyT" : [
+      "Divine",
+      "25,000 atoms"
+    ],
+    "Bia" : [
+      "Divine",
+      "25,000 atoms"
+    ],
+    "Jenny" : [
+      "Mythical",
+      "1,000 atoms"
+    ],
+    "Amber" : [
+      "Perfect",
+      "500 atoms"
+    ],
+    "Activated Uranium" : [
+      "Mythical",
+      "1,000 atoms"
+    ],
+    "Europium" : [
+      "Rare",
+      "20 atoms"
+    ],
     "Astatine" : [
       "Epic",
       "75 atoms"
