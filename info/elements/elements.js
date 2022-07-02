@@ -1,4 +1,80 @@
 var elements = {
+    "Astatine" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Arsenic" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Germanium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Tellurium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Antimony" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Silicon" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Boron" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Radium" : [
+      "Legendary",
+      "200 atoms"
+    ],
+    "Caesium" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Stronium" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Stronium" : [
+      "Epic",
+      "75 atoms"
+    ],
+    "Potassium" : [
+      "Rare",
+      "25 atoms"
+    ],
+    "Rubidium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Beryllium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Sodium" : [
+      "Rare",
+      "20 atoms"
+    ],
+    "Barium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Magnesium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Calcium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
+    "Lithium" : [
+      "Uncommon",
+      "5 atoms"
+    ],
     "Bromine" : [
       "Legendary",
       "250 atoms"
