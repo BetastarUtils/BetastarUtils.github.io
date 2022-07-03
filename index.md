@@ -32,7 +32,7 @@
     <img src="/assets/computer.png" alt="Redirect Image" width="200" height="200">
   </a>
   <h3>Mutlitool</h3>
-  <p>This is the ultimate tool that has a TON of Betastar features.<br>If the link on the image is blocked, use <a href="https://lunanom.hackergavin.repl.co/service/hvtrs8%2F-wuw%2Cgwindgd%2Cge%2FTinlcilsPune">this</a> link.</p>
+  <p>This is the ultimate tool that has a TON of Betastar features.<br>If the link on the image is blocked, use <a href="https://lunanom.hackergavin.repl.co/service/hvtrs8%2F-wuw%2Cgwindgd%2Cge%2FTinlcilTmwl">this</a> link.</p>
   <br>
   <br>  
   
