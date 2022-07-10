@@ -9,6 +9,7 @@
     <br>
     <b>Announcements:</b><br>
     The Multitool is OUT and ABOUT!<br>
+    Hard-Coded pages COMING SOON...
     <br>
     <b><a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue.</a></b>
   </p>
