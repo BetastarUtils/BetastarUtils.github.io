@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<index>
+  <head>
+    <link href="https://betastarutils.github.io/assets/siteLogo.png" rel="icon" type="image/x-icon">
+    <title>BetastarUtils by VillainsRule</title>
+    <meta name="keywords" content="xotic, betastar, blax, blacket, xotlc, blooket, hack, cheat"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta name="description" content="The #1 Betastar Utilities site.">               
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body align="center">
+    <header>
+      <img src="https://betastarutils.github.io/assets/siteLogo.png" alt="Logo" width="300" height="300">
+      <h1>Betastar Hacks</h1>
+      <br>
+      <h2 id="credits">Supplied by VillainsRule.</h2>
+      <h3><a href="https://github.com/BetastarUtils/BetastarUtils.github.io/issues">Report an Issue</a></h3>
+    </header>
+    <h2>Using a Hack</h2>
+    <p>
+      1. Find the hack you want below.<br>
+      2. Under the hack's description, there will be a blue link. Drag this to your Bookmarks.<br>
+      3. Open <a href="https://betastar.org">Betastar</a>.<br>
+      4. Click the bookmarklet script to use it.<br>
+      5. Follow any instructions (in popups) on the Betastar page.<br>
+    </p>
+    <br>
+    <br>
+    <br>
+    
+    <h2>Element Chance Calculator</h2>
+    <p>
+      Informs you of the chance of getting an element from a crate...<br>
+      <br>
+      <b>For two-word element support, get the MULTITOOL (coming soon)!</b>
+    </p>
+    <h3><a href="javascript:(function()%7Btry%20%7B%0Alet%20element%20%3D%20prompt('What%20element%20are%20you%20trying%20to%20get%3F')%3B%0Alet%20amt%20%3D%20prompt('How%20many%20crates%20are%20you%20opening%3F')%3B%0Alet%20amount%20%3D%20prompt('How%20many%20are%20you%20aiming%20for%3F')%3B%0Alet%20chance%20%3D%20elementList%5Belement%5D%5B'chance'%5D%3B%0Aalert('Press%20OK%20to%20calculate!')%3B%0A%0Alet%20calculation%20%3D%20chance%20*%20amt%3B%0Aalert('You%20have%20a%20'%20%2B%20calculation%20%2B%20'%25%20chance%20to%20get%20at%20least%20one%20'%20%2B%20element%20%2B%20'.%20(Press%20OK%20to%20continue)')%3B%0Aalert('You%20have%20a%20'%20%2B%20(calculation%20%2F%20amount)%20%2B%20'%25%20chance%20to%20get%20'%20%2B%20amount%20%2B%20'%20'%20%2B%20element%20%2B%20'.')%3B%0A%7D%20catch%20(e)%20%7B%0Aalert('An%20error%20has%20occurred')%0A%7D%7D)()%3B">Element Chance Calc</a></h3>
+    <pre>try{let e=prompt("What element are you trying to get?"),t=prompt("How many crates are you opening?"),a=prompt("How many are you aiming for?"),o=elementList[e].chance;alert("Press OK to calculate!");let r=o*t;alert("You have a "+r+"% chance to get at least one "+e+". (Press OK to continue)"),alert("You have a "+r/a+"% chance to get "+a+" "+e+".")}catch(e){alert("An error has occurred")}</pre>
+    <br>
+    <br>
+    
+    <img src="https://betastarutils.github.io/assets/sell.png" alt="Logo" width="200" height="90">
+    <h2>Sell Duplicate Elements</h2>
+    <p>Sell all your duplicate Elements, automatically.</p>
+    <h3><a href="javascript:(function()%7B%24.get('%2Fapi%2Fuser%2Felements'%2C%20function(data)%20%7B%0Awindow.userElements%20%3D%20JSON.parse(data)%0AObject.keys(elementList).forEach(element%20%3D%3E%20sell(element))%0A%7D)%0A%0Aasync%20function%20sell(element)%20%7B%0Avar%20amt%20%3D%20%20window.userElements%5Belement%5D%20-%201%0Aif%20(0%20%3E%3D%20amt)%20return%0A%24.post(%60%2Fapi%2Fsell%2F%60%2C%20%60element%3D%24%7Belement%7D%26quantity%3D%24%7Bamt%7D%60%2C%20function()%20%7B%0AisNaN(amt)%20%3F%20%22%22%20%3A%20console.log(%60Sold%20%24%7Bamt%7D%20%24%7Belement%7D(s)%60)%20%7D)%20%7D%7D)()%3B">Sell Dupes</a></h3>
+    <pre>async function sell(e){var s=window.userElements[e]-1;0>=s||$.post("/api/sell/",`element=${e}&quantity=${s}`,(function(){!isNaN(s)&&console.log(`Sold ${s} ${e}(s)`)}))}$.get("/api/user/elements",(function(e){window.userElements=JSON.parse(e),Object.keys(elementList).forEach((e=>sell(e)))}));</pre>
+    <br>
+    <br>
+    
+    <img src="https://betastarutils.github.io/assets/crateSpam.png" alt="Logo" width="110" height="300">
+    <h2>Spam Open Crates</h2>
+    <p>Quickly get elements from any crate.<br><br><strong>Right now, this requires console access. Updated version coming soon!</strong></p>
+    <h3><a href="javascript:(function()%7Bvar%20i%20%3D%200%3B%0Avar%20boxes%20%3D%20%5B%5D%0Acolors%20%3D%20%7B%0A%20%20%20%20divine%3A%20'%23ee82ee'%2C%0A%20%20%20%20mythical%3A%20'%23a335ee'%2C%0A%20%20%20%20perfect%3A%20'%23fffacd'%2C%0A%20%20%20%20fabled%3A%20'%230c7500'%2C%0A%20%20%20%20legendary%3A%20'%23ff910f'%2C%0A%20%20%20%20epic%3A%20'%23be0000'%2C%0A%20%20%20%20rare%3A%20'%230a14fa'%2C%0A%20%20%20%20uncommon%3A%20'%234bc22e'%2C%0A%20%20%20%20common%3A%20'%23ffffff'%0A%7D%0A%0Avar%20name%20%3D%20prompt(%22Which%20crate%20would%20you%20like%20to%20open%3F%5Cn%5CnOptions%3A%5Cn%22%20%2B%20Object.keys(cratesList).join('%5Cn'))%3B%0Aif%20(!Object.keys(cratesList).includes(name))%20%7B%0A%20%20%20%20alert('That%20crate%20doesn%5C't%20exist...')%0A%20%20%20%20name%20%3D%20prompt(%22Which%20crate%20would%20you%20like%20to%20open%3F%5Cn%5CnOptions%3A%5Cn%22%20%2B%20Object.keys(cratesList).join('%5Cn'))%3B%0A%7D%0Avar%20amt%20%3D%20Number(prompt(%22How%20many%20crates%20would%20you%20like%20to%20open%3F%5Cntype%20%5C%22*%5C%22%20to%20unlock%20all%20you%20can%20with%20your%20current%20atoms.%22))%3B%0Aif%20(isNaN(amt))%20amt%20%3D%20Number.MAX_VALUE%0A%0Afunction%20buyBox()%20%7B%0A%20%20%20%20%24.post('%2Fapi%2Fopen%2F'%2C%20%60crate%3D%24%7Bname%7D%60%2C%20function(data)%20%7B%0A%20%20%20%20%20%20%20%20try%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20(data.includes(%22rate%22))%20i--%0A%20%20%20%20%20%20%20%20%20%20%20%20else%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20rarity%20%3D%20elementList%5Bdata%5D%5B'rarity'%5D.toLowerCase()%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20console.log('%25c%25s'%2C%20%60color%3A%20%24%7Bcolors%5Brarity%5D%7D%3B%20font-size%3A%2025px%3B%20text-shadow%3A%200px%200px%2015px%20%24%7Bcolors%5Brarity%5D%7D%3B%60%2C%20%60%24%7Bdata%7D%60)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%20catch%20(e)%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20i%20%3D%20amt%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D)%3B%0A%7D%0Avar%20check%20%3D%20setInterval(()%20%3D%3E%20%7B%0A%20%20%20%20if%20(i%20%3C%20amt)%20%7B%0A%20%20%20%20%20%20%20%20buyBox()%3B%0A%20%20%20%20%20%20%20%20i%2B%2B%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20clearInterval(check)%3B%0A%20%20%20%20%20%20%20%20alert(%22Done%20buying%20boxes!%20Check%20the%20console%20or%20the%20Elements%20page.%22)%3B%0A%20%20%20%20%7D%0A%7D%2C%20500)%3B%7D)()%3B">Spam Open Crates</a></h3>
+    <br>
+    <br>
+    
+    <img src="https://betastarutils.github.io/assets/allElements.png" alt="Logo" width="500" height="250">
+    <h3>Spoof Elements</h3>
+    <p>Make it look as if you have EVERY ELEMENT, even unobtainable ones!</p>
+    <h3><a href="javascript:(function()%7BArray.from(document.getElementById('%23elementList').children).forEach(a%20%3D%3E%20a.remove())%0AObject.entries(elementList).forEach((entry)%20%3D%3E%20%7B%0A%09const%20%5Bkey%2C%20value%5D%20%3D%20entry%3B%0A%09%24(%60%3Cimg%20id%3D%22%24%7Bkey%7D%22%20src%3D%22%24%7BelementList%5Bkey%5D.imageURL%7D%22%20onclick%3D%22viewElement('%24%7Bkey%7D')%22%20class%3D%22bottomElement%22%3E%60).appendTo(%22.elementList%22)%3B%0A%7D)%0Afor%20(i%3D0%3Bi%3CObject.keys(elementList).length%3Bi%2B%2B)%20%7B%0A%20%20%20%20elemes%20%3D%20Object.keys(elementList)%0A%20%20%20%20userElements%5Belemes%5Bi%5D%5D%20%3D%20Math.floor(elementList%5Belemes%5Bi%5D%5D%5B'chance'%5D%20%2F%202%20%2B%20Math.round(Math.random()%20*%2020))%3B%0A%7D%7D)()%3B">Spoof Elem</a></h3>
+  </body>
+</index>
